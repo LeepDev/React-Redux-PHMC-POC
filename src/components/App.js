@@ -12,6 +12,9 @@ import Profile from '../components/Profile';
 import ProfileFavorites from '../components/ProfileFavorites';
 import Register from '../components/Register';
 import Settings from '../components/Settings';
+
+
+
 import { store } from '../store';
 import { push } from 'react-router-redux';
 
@@ -78,9 +81,5 @@ class App extends React.Component {
     );
   }
 }
-
-// App.contextTypes = {
-//   router: PropTypes.object.isRequired
-// };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
