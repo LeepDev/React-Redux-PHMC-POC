@@ -9,8 +9,8 @@ class Header extends React.Component {
       <nav className="navbar navbar-light">
         <div className="container">
           
-          <Link to="/" className="navbar-brand">          
-            <ReactImage data-layer="57a197e6-e61a-441c-97fc-2c17a8414f44" source={require('../assets/HomePage/rectangle85.png')} style={styles.web19201_rectangle85} />
+          <Link to="/" className="navbar-brand">  
+          <ReactImage data-layer="e39e0f7d-00c2-453a-bd60-59dd1e06abee" source={require('../assets/HomePage/phmc-logo.png')} style={styles.web19201_rectangle97} />
           </Link>
 
           <ul className="nav navbar-nav pull-xs-right">
