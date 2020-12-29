@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './web19201.css';
+import {Image as ReactImage} from 'react-native';
+import styles from './styles';
+
 
 const LoggedOutView = props => {
   if (!props.currentUser) {
@@ -75,15 +77,11 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-light">
         <div className="container">
+          
+          <Link to="/" className="navbar-brand">Test</Link>
 
-          {/* <Link to="/" className="navbar-brand">
-            {this.props.appName.toLowerCase()}
-          </Link> */}
+          <ReactImage data-layer="57a197e6-e61a-441c-97fc-2c17a8414f44" source={require('../assets/HomePage/rectangle85.png')} style={styles.web19201_rectangle85} />
 
-          {/* <Text data-layer="c7d4e5e0-9ba8-42bb-99c3-b7efb5da56be" style={styles.web19201_careers}>Careers</Text>
-          <Text data-layer="cfad5b67-f7fc-4247-9a96-e2bc2c1a5b53" style={styles.web19201_contact}>Contact</Text>
-          <Text data-layer="247be0be-f4ec-4fbd-9690-d38450a7f4f6" style={styles.web19201_locations}>Locations</Text>
-          <Text data-layer="119a33e1-1871-4382-b6cd-66208e02380e" style={styles.web19201_payment}>Payment</Text> */}
           <ul className="nav navbar-nav pull-xs-right">
 
             <li className="nav-item">
@@ -104,11 +102,11 @@ class Header extends React.Component {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/payment" style={styles.web19201_payment}>
                 Payment
               </Link>
-            </li>
+            </li> */}
 
           </ul>
           {/* <LoggedOutView currentUser={this.props.currentUser} />
