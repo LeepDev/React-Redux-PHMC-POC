@@ -8,12 +8,6 @@ import { ConnectedRouter } from 'react-router-redux';
 
 import App from './components/App';
 
-import HomepageFront from './PHMC-Homepage/homepageFront';
-import HomepageMortgageCalculator from './PHMC-Homepage/homepageMortgageCalculator';
-import HomepageAboutUs from './PHMC-Homepage/homepageAboutUs';
-import HomepageBlog from './PHMC-Homepage/homepageBlog';
-import HomepageReview from './PHMC-Homepage/homepageReview';
-
 import Web19201 from './PHMC-Homepage/web19201';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
