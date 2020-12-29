@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
-import {StyleSheet, Text, View, TextInput, FlatList, Picker, ScrollView, TouchableHighlight} from 'react-native';
+import {StyleSheet, Button, Text, View, TextInput, FlatList, Picker, ScrollView, TouchableHighlight} from 'react-native';
 import {Image as ReactImage} from 'react-native';
 import Svg, {Defs, Pattern} from 'react-native-svg';
 import {Path as SvgPath} from 'react-native-svg';
@@ -8,6 +8,7 @@ import {Text as SvgText} from 'react-native-svg';
 import {Image as SvgImage} from 'react-native-svg';
 import Header from './Header';
 import styles from './styles';
+import { Link } from 'react-router-dom';
 
 export default class Web19201 extends Component {
 
@@ -78,9 +79,8 @@ export default class Web19201 extends Component {
         <Text data-layer="b23ab776-7d02-4d75-85df-21201a71f0de" style={styles.web19201_withALenderWhoCares}>with a lender who Cares</Text>
         <Svg data-layer="e6128dea-1e4a-453c-8a09-c14afb78e698" style={styles.web19201_line9} preserveAspectRatio="none" viewBox="0 -1.5 1591 3" fill="transparent"><SvgPath d="M 0 0 L 1591 0"  /></Svg> 
         <Header></Header>
-        <ReactImage data-layer="57a197e6-e61a-441c-97fc-2c17a8414f44" source={require('../assets/HomePage/rectangle85.png')} style={styles.web19201_rectangle85} />
-        <ReactImage data-layer="00afd87a-2ea4-4084-a08e-fbb1f9260371" source={require('../assets/HomePage/component42.png')} style={styles.web19201_component42} />
-        <ReactImage data-layer="9ad2c766-2d76-47e7-b129-2e32504d1136" source={require('../assets/HomePage/component52.png')} style={styles.web19201_component52} />
+        <Link to='/contact'><ReactImage data-layer="00afd87a-2ea4-4084-a08e-fbb1f9260371" source={require('../assets/HomePage/component42.png')} style={styles.web19201_component42} /></Link>
+        <Link to='/locations'><ReactImage data-layer="9ad2c766-2d76-47e7-b129-2e32504d1136" source={require('../assets/HomePage/component52.png')} style={styles.web19201_component52} /></Link>
         <ReactImage data-layer="e9381ffc-686c-4c60-a84f-298e26e97d7a" source={require('../assets/HomePage/rectangle88.png')} style={styles.web19201_rectangle88} />
         <ReactImage data-layer="c40afdc2-bc23-487e-bee1-f66e572269d2" source={require('../assets/HomePage/rectangle89.png')} style={styles.web19201_rectangle89} />
         <Text data-layer="0d764156-a59b-4fd3-bdcc-70c33c2f37a2" style={styles.web19201_weAreNotJustAnotherLender}>We are Not just another Lender</Text>
