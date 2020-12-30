@@ -4,7 +4,9 @@
         height: 100%;
         width: 100%;
       }
-
+      span {
+        font-weight:900;
+      }
       body {
         font-family: 'Open Sans', serif;
         margin: 0;

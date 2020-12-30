@@ -17,6 +17,7 @@ export default {
       "left": 0,
       "top": 0
     },
+  
     "web19201_rectangle108": {
       "opacity": 1,
       "position": "absolute",
