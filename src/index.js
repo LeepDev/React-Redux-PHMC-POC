@@ -6,9 +6,9 @@ import { store, history} from './store';
 import { Route, Switch } from 'react-router-dom';
 import { ConnectedRouter } from 'react-router-redux';
 
-import App from './components/App';
+// import App from './components/App';
 
-import Web19201 from './PHMC-Homepage/web19201';
+import LandingPage from './PHMC-Homepage/LandingPage';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
 import Locations from './PHMC-Homepage/locations';
@@ -17,7 +17,7 @@ ReactDOM.render((
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
-        <Route exact path="/" component={Web19201} />
+        <Route exact path="/" component={LandingPage} />
         <Route path="/careers" component={Careers} />
         <Route path="/contact" component={Contact} />
         <Route path="/locations" component={Locations} />
