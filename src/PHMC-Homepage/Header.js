@@ -34,16 +34,7 @@ class Header extends React.Component {
               </Link>
             </li>
 
-            {/* <li className="nav-item">
-              <Link to="/payment" style={styles.web19201_payment}>
-                Payment
-              </Link>
-            </li> */}
-
           </ul>
-          {/* <LoggedOutView currentUser={this.props.currentUser} />
-
-          <LoggedInView currentUser={this.props.currentUser} /> */}
         </div>
       </nav>
     );

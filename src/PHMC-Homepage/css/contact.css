@@ -52,7 +52,7 @@
 }
 
 .contact .rectangle4 {
-      background-image: url("../assets/contact/rectangle4.png");
+      background-image: url("../../assets/contact/rectangle4.png");
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -100,7 +100,7 @@
 }
 
 .contact .rectangle3 {
-      background-image: url("../assets/contact/rectangle3.png");
+      background-image: url("../../assets/contact/rectangle3.png");
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -432,7 +432,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle6.png");
+      background-image: url("../../assets/contact/rectangle6.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1418,7 +1418,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle64.png");
+      background-image: url("../../assets/contact/rectangle64.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1466,7 +1466,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle65.png");
+      background-image: url("../../assets/contact/rectangle65.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1514,7 +1514,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle66.png");
+      background-image: url("../../assets/contact/rectangle66.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1684,7 +1684,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle67.png");
+      background-image: url("../../assets/contact/rectangle67.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1732,7 +1732,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/rectangle68.png");
+      background-image: url("../../assets/contact/rectangle68.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1854,7 +1854,7 @@
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-      background-image: url("../assets/contact/platinumlogohorizontal.png");
+      background-image: url("../../assets/contact/platinumlogohorizontal.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
