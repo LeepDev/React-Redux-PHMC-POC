@@ -48,7 +48,7 @@ class Contact extends React.Component {
             <div data-layer="02563c63-da5a-460d-8d72-fa3f88a0cb3b" className="rectangle65"></div>
             <div data-layer="f205c17d-137d-40bc-aea1-4b607b39a69a" className="rectangle66"></div>
 </div>
-        <div data-layer="c51f8081-6cf3-4849-a6a7-58ba8ba73bf0" className="homeBlogContactLocationsCareersPayment">Home | <span>Blog</span> | Contact | Locations | Careers | Payment</div>
+        <div data-layer="c51f8081-6cf3-4849-a6a7-58ba8ba73bf0" className="homeBlogContactLocationsCareersPayment">Home | <span className="textBold">Blog</span> | Contact | Locations | Careers | Payment</div>
         <div data-layer="880615f5-217d-436f-aa54-4153f4a400ee" className="nmlsPrivacyPolicyTermsOfUseDisclosureLicensing">NMLS | Privacy Policy | Terms of Use | Disclosure | Licensing</div>
         <div data-layer="f914e4a3-a141-47f1-bd67-8ee2ddfc22e5" className="x2021PlatinumHomeMortgageCorporationAllRightsReservedLegalLicensingPrivacyInNewYorkDbaPhmcMortgageNmlsId">© 2021 Platinum Home Mortgage Corporation. All rights reserved. Legal | Licensing | Privacy In New York: dba PHMC Mortgage NMLS ID #13589. For licensing information, go to: www.nmlsconsumeraccess.org All loans subject to credit approval and certain restrictions may apply. Information subject to change without notice. HomeStyle® is a registered trademark of Fannie Mae.</div>
         <div data-layer="6e0e4623-ee17-4489-8e91-3b75085e96ff" className="rectangle67"></div>
