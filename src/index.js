@@ -10,7 +10,8 @@ import App from './components/App';
 
 import Web19201 from './PHMC-Homepage/web19201';
 import Careers from './PHMC-Homepage/careers';
-import Contact from './PHMC-Homepage/contact';
+// import Contact from './PHMC-Homepage/contact';
+import Contact from './PHMC-Homepage/contact-scratch';
 import Locations from './PHMC-Homepage/locations';
 
 ReactDOM.render((
