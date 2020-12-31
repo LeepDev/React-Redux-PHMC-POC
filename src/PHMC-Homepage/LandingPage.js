@@ -2,6 +2,7 @@
 import React from "react";
 import Header from './Header';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 import "./css/landingPage.css";
 
@@ -25,10 +26,8 @@ class LandingPage extends React.Component {
         <div data-layer="b23ab776-7d02-4d75-85df-21201a71f0de" className="withALenderWhoCares"><span className="withALenderWhoCares-0">with a lender who </span><span className="withALenderWhoCares-18">Cares</span></div>
         <svg data-layer="e6128dea-1e4a-453c-8a09-c14afb78e698" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line9"><path d="M 0 0 L 1591 0"  /></svg>
         <Header></Header>
-        <div data-layer="00afd87a-2ea4-4084-a08e-fbb1f9260371" className="component42"></div>
-        <div data-layer="9ad2c766-2d76-47e7-b129-2e32504d1136" className="component52"></div>
-        <div data-layer="e9381ffc-686c-4c60-a84f-298e26e97d7a" className="rectangle88"></div>
-        <div data-layer="c40afdc2-bc23-487e-bee1-f66e572269d2" className="rectangle89"></div>
+        <Link to='/buy'><div data-layer="9ad2c766-2d76-47e7-b129-2e32504d1136" className="component42"></div></Link>
+        <Link to='/refi'><div data-layer="9ad2c766-2d76-47e7-b129-2e32504d1136" className="component52"></div></Link>
         <div data-layer="0d764156-a59b-4fd3-bdcc-70c33c2f37a2" className="weAreNotJustAnotherLender"><span className="weAreNotJustAnotherLender-0">We are </span><span className="weAreNotJustAnotherLender-7">Not</span><span className="weAreNotJustAnotherLender-10"> just another </span><span className="weAreNotJustAnotherLender-24">Lender</span></div>
         <div data-layer="f398f3b1-3c2d-4de3-8ff2-8c5c65fbc238" className="whatMakesUsDifferent"><span className="whatMakesUsDifferent-0">What makes us </span><span className="whatMakesUsDifferent-14">Different</span></div>
         <div data-layer="7ed945f1-ce7a-467b-9e9b-7918675ffb37" className="hereAtPlatinumHomeMortgageWeAreInTheBusinessOfHelpingPeopleOurBeliefIsThatYourHomeIsWhereLoveAndSecurityComesFromWeStriveToGetEveryPersonIntoTheirOwnHomeTalkToOurAmazingTeamTodayToSeeWhatTheyCanDoForYou">Here at Platinum Home Mortgage, we are in the business of helping people. Our belief is that your home is where love and security comes from. We strive to get every person into their own home.  Talk to our amazing team today to see what they can do for you.</div>
