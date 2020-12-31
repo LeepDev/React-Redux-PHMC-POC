@@ -17,6 +17,7 @@ import Refi from './PHMC-Homepage/refi';
 import Startnow from './PHMC-Homepage/startnow';
 import Licensing from './PHMC-Homepage/licensing';
 import Ccpa from './PHMC-Homepage/ccpa';
+import EmailPolicy from './PHMC-Homepage/emailPolicy';
 
 ReactDOM.render((
   <Provider store={store}>
@@ -31,6 +32,7 @@ ReactDOM.render((
         <Route path="/startnow" component={Startnow} />
         <Route path="/licensing" component={Licensing} />
         <Route path="/ccpa" component={Ccpa} />
+        <Route path="/emailPolicy" component={EmailPolicy} />
       </Switch>
     </ConnectedRouter>
   </Provider>
