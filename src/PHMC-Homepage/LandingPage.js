@@ -35,9 +35,12 @@ class LandingPage extends React.Component {
         <div data-layer="7ed945f1-ce7a-467b-9e9b-7918675ffb37" className="hereAtPlatinumHomeMortgageWeAreInTheBusinessOfHelpingPeopleOurBeliefIsThatYourHomeIsWhereLoveAndSecurityComesFromWeStriveToGetEveryPersonIntoTheirOwnHomeTalkToOurAmazingTeamTodayToSeeWhatTheyCanDoForYou">Here at Platinum Home Mortgage, we are in the business of helping people. Our belief is that your home is where love and security comes from. We strive to get every person into their own home.  Talk to our amazing team today to see what they can do for you.</div>
         <div data-layer="e0d5b1d8-6e7c-442e-9160-0bb076fe9f3e" className="workingWithADirectLenderLikePlatinumCanHelpYouAchieveYourHomeownershipGoalsInAMuchSmootherSimplerProcess">Working with a direct lender, like Platinum, can help you achieve your homeownership goals in a much smoother, simpler process</div>
         <svg data-layer="d1cd047a-271f-4d70-b5ef-995ec12b46d2" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line10"><path d="M 0 0 L 1591 0"  /></svg>
-        <div data-layer="08abbd48-7546-4bc8-bc9c-4ab329e6a419" className="component618">            <svg data-layer="9c711680-a26a-44ac-838b-048a27bf14ed" preserveAspectRatio="none" viewBox="-1.5 -1.5 178 69" className="path1e868ca31"><path d="M 0 0 L 175 0 L 175 66 L 0 66 L 0 0 Z"  /></svg>
-            <div data-layer="44559168-99ae-414c-8234-0fc0d94788db" className="startNowe84ab019">Start Now</div>
-</div>
+        <Link to='/startnow'>
+            <div data-layer="08abbd48-7546-4bc8-bc9c-4ab329e6a419" className="component618">            
+                <svg data-layer="9c711680-a26a-44ac-838b-048a27bf14ed" preserveAspectRatio="none" viewBox="-1.5 -1.5 178 69" className="path1e868ca31"><path d="M 0 0 L 175 0 L 175 66 L 0 66 L 0 0 Z"  /></svg>
+                <div data-layer="44559168-99ae-414c-8234-0fc0d94788db" className="startNowe84ab019">Start Now</div>
+            </div>
+        </Link>
         <div data-layer="2ebd9d90-ef6c-4f5d-a5c5-a801618a91aa" className="rectangle86"></div>
         <div data-layer="eb60dcbf-5ba7-434f-aaae-4c1f79a9bf1a" className="whoWeAre">Who We Are</div>
         <div data-layer="7b1a967c-f8eb-41e3-a183-1d00ab4e630a" className="rectangle91"></div>
@@ -50,16 +53,19 @@ class LandingPage extends React.Component {
 </div>
         <div data-layer="d2d87336-3b54-44eb-8944-b067bb05d8b5" className="getAPreapproaval">Get a Preapproaval</div>
         <div data-layer="8ff0d451-9329-4387-9b23-01cf460effcc" className="quickLookAtYourMonthlyPayments">Quick look at your monthly payments</div>
-        <div data-layer="234b14c4-5d19-4f4b-a514-ca8373f696a9" className="aPreapprovalCanGiveYouTheExactAmountYouCanAffordAtNoObligationOrCostToYou">A preapproval can give you the exact amount you can afford at no obligation or cost to you.<br /><br /></div>
+        <div data-layer="234b14c4-5d19-4f4b-a514-ca8373f696a9" className="aPreapprovalCanGiveYouTheExactAmountYouCanAffordAtNoObligationOrCostToYou">A preapproval can give you the exact amount you can afford at no obligation or cost to you.</div>
         <svg data-layer="8642b972-3555-4414-ab3a-990ab5f8295d" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line12"><path d="M 0 0 L 1591 0"  /></svg>
         <div data-layer="a6b71707-8e53-4764-9458-30ec6d24aab6" className="howMuchDoYouWantToBorrow">How much do you want to borrow?</div>
         <div data-layer="b1dfa94e-8f9e-4b05-8929-4ddfbbb44827" className="whatIsTheInterestRate">What is the interest rate?</div>
         <div data-layer="54c426a2-1c8c-4fd6-b9e3-199814a304a2" className="estimatedMonthlyPayment">Estimated monthly payment</div>
         <div data-layer="2486b9dd-a1ed-485e-a002-f3dd2ae848bd" className="howManyYearsIsTheLoan">How many years is the loan? </div>
         <svg data-layer="55840a21-36db-4604-95b0-2439494f1d88" preserveAspectRatio="none" viewBox="0 -2.5 483 5" className="line11"><path d="M 0 0 L 483 0"  /></svg>
-        <div data-layer="792e832e-d26f-4ee0-8afe-cecd976bee2a" className="component619">            <svg data-layer="360ca656-359b-4558-897e-68dadf1f5299" preserveAspectRatio="none" viewBox="-1.5 -1.5 178 69" className="path1f009790d"><path d="M 0 0 L 175 0 L 175 66 L 0 66 L 0 0 Z"  /></svg>
-            <div data-layer="55edfdb0-15ba-4460-a9c4-b4bd3eaebdcf" className="startNow012f5e81">Start Now</div>
-</div>
+        <Link to='/startnow'>
+            <div data-layer="792e832e-d26f-4ee0-8afe-cecd976bee2a" className="component619">            
+                <svg data-layer="360ca656-359b-4558-897e-68dadf1f5299" preserveAspectRatio="none" viewBox="-1.5 -1.5 178 69" className="path1f009790d"><path d="M 0 0 L 175 0 L 175 66 L 0 66 L 0 0 Z"  /></svg>
+                <div data-layer="55edfdb0-15ba-4460-a9c4-b4bd3eaebdcf" className="startNow012f5e81">Start Now</div>
+            </div>
+        </Link>
         <div data-layer="b4337a98-319c-41ff-9e0b-e793ad46f092" className="rectangle90"></div>
         <div data-layer="12460c12-038e-4d76-a741-1c45ab6ba84e" className="monthlyPaymentsMadeEasy">Monthly Payments Made Easy</div>
         <div data-layer="008d7c41-0aa6-4683-8a28-3f047c3df5be" className="rectangle100"></div>
