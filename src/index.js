@@ -15,6 +15,7 @@ import Locations from './PHMC-Homepage/locations';
 import Buy from './PHMC-Homepage/buy';
 import Refi from './PHMC-Homepage/refi';
 import Startnow from './PHMC-Homepage/startnow';
+import Licensing from './PHMC-Homepage/licensing';
 
 ReactDOM.render((
   <Provider store={store}>
@@ -27,6 +28,7 @@ ReactDOM.render((
         <Route path="/buy" component={Buy} />
         <Route path="/refi" component={Refi} />
         <Route path="/startnow" component={Startnow} />
+        <Route path="/licensing" component={Licensing} />
       </Switch>
     </ConnectedRouter>
   </Provider>
