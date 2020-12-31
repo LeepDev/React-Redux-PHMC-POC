@@ -17,7 +17,7 @@ class Footer3 extends React.Component {
               <Link to='/'>Home</Link> | Blog | <Link to='/contact'>Contact</Link> | <Link to='/locations'>Locations</Link> | <Link to='/careers'>Careers</Link> | Payment
               </div>
             <div data-layer="52719d8b-9b7d-4371-bb7f-c9e65c46f041" className="nmlsPrivacyPolicyTermsOfUseDisclosureLicensing2">
-              NMLS | Privacy Policy | Terms of Use | Disclosure | <Link to='/licensing'>Licensing</Link>
+              NMLS | Privacy Policy | Terms of Use | <Link to='/ccpa'>CCPA</Link> | <Link to='/licensing'>Licensing</Link>
             </div>
             <div data-layer="d58a9ff4-3495-449c-b06e-b8ad757b340d" className="x2021PlatinumHomeMortgageCorporationAllRightsReservedLegalLicensingPrivacyInNewYorkDbaPhmcMortgageNmlsId2">© 2021 Platinum Home Mortgage Corporation. All rights reserved. Legal | Licensing | Privacy In New York: dba PHMC Mortgage NMLS ID #13589. For licensing information, go to: www.nmlsconsumeraccess.org All loans subject to credit approval and certain restrictions may apply. Information subject to change without notice. HomeStyle® is a registered trademark of Fannie Mae.</div>
             <div data-layer="a724001e-08ee-48ea-90f4-56b4aa9e26eb" className="rectangle672"></div>
