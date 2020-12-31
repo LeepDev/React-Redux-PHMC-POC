@@ -9,6 +9,7 @@
   "dependencies": {
     "@storybook/addon-actions": "^6.1.11",
     "@storybook/react": "^6.1.11",
+    "bootstrap": "^5.0.0-beta1",
     "history": "^4.6.3",
     "marked": "^0.3.6",
     "prop-types": "^15.5.10",
