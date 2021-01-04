@@ -28,7 +28,7 @@ function BuyTest2(props) {
                             { onChange }
                         ) => (
                             <RadioGroup defaultValue="zero" onChange={onChange}>
-                                <Text fontSize="3xl">WTF in the process are you?</Text>
+                                <Text fontSize="3xl">Where are you refinancing?</Text>
                                 <Stack direction="column">
                                     <Radio value="research">I'm just researching</Radio>
                                     <Radio value="openHouse">I'm going to open houses</Radio>
