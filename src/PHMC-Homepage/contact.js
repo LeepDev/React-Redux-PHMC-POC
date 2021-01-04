@@ -19,7 +19,7 @@ class Contact extends React.Component {
         <div data-layer="dd354256-3ba7-4017-8459-17d06a9862da" className="contact">
           <div data-layer="c8889a80-696d-4845-816d-bf9e850461a7" className="rectangle4"></div>
           <div data-layer="f5f9a899-2a7f-4cfb-bfd0-afcb3c20dc87" className="rectangle3"></div>
-          <Header></Header>        
+          <Header></Header>
           <div data-layer="9c16e6b2-6ab1-49f5-b2c1-3596ef90ba8b" className="rectangle14"></div>
           <div data-layer="110ca9fd-80ea-4b95-b94c-32e96d68d649" className="rectangle15"></div>
           <div data-layer="001749c3-8bb0-4983-8579-64055c950e8c" className="rectangle16"></div>

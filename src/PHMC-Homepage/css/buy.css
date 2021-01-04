@@ -43,7 +43,7 @@
       overflow-y: auto;
       background-color: rgba(255, 255, 255, 1);
       width: 1920.00px;
-    height: 4949.00px;
+    height: 1050.5px;
     left: 0px;
     top: 0px;
 
@@ -764,7 +764,7 @@
 
 }
 
-.buy .component75 .path13ef1fe56 {
+.buy .path13ef1fe56 {
     position: absolute;
       box-sizing: border-box;
       -ms-transform: rotate(0.00deg);
@@ -774,7 +774,7 @@
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
-      cursor: default;
+      cursor: pointer;
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
@@ -795,7 +795,7 @@
 
 }
 
-.buy .component75 .next {
+.buy .next {
     position: absolute;
       box-sizing: content-box;
       -ms-transform: rotate(0.00deg);
@@ -805,7 +805,7 @@
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
-      cursor: default;
+      cursor: pointer;
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
@@ -834,6 +834,80 @@
     top: 15.00px;
 
 }
+
+
+
+.buy .submit {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(54, 84, 124, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 30.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 70.00px;
+  height: 37.00px;
+  left: 35.00px;
+  top: 15.00px;
+
+}
+
+.buy .component755 {
+
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 175.00px;
+height: 66.00px;
+left: 400.00px;
+top: 645.00px;
+
+}
+
 
 .buy .whereInTheProcessAreYou {
     position: absolute;
@@ -1835,46 +1909,6 @@
     height: 175.00px;
     left: 1588.00px;
     top: 510.00px;
-
-}
-
-.buy .imJustResearching189bce5a {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.7544729709625244;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 35.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 344.00px;
-    height: 43.00px;
-    left: 225.00px;
-    top: 297.00px;
 
 }
 
@@ -5228,3 +5262,121 @@
 
 }
 
+.processButton {
+  display: inline-block;
+  cursor: pointer;
+  border: transparent;
+  box-sizing: border-box;
+}
+
+.processButton:hover {
+  outline:  rgba(54, 84, 124, 1);
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: -1px;
+}
+
+
+
+.buy .imJustResearching189bce5a {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 0.7544729709625244;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(54, 84, 124, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 35.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 344.00px;
+  height: 43.00px;
+  left: 225.00px;
+  top: 297.00px;
+
+}
+
+
+.buy .processButtonBorderPath {
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: pointer;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: transparent;
+    stroke: rgba(54, 84, 124, 1);
+        stroke-width: 2.00px;
+        stroke-linecap: butt;
+    box-shadow: none;
+  height: 66.00px;
+  left: 0.00px;
+  top: 0.00px;
+
+}
+
+
+
+ .whereInTheProcessAreYou2 {
+  position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 0.7544729709625244;
+    cursor: default;
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(54, 84, 124, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 35.00px;
+    font-weight: 700;
+  font-style: normal;
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+  width: 543.00px;
+  height: 43.00px;
+  left: 171.00px;
+  top: 100.00px;
+
+}

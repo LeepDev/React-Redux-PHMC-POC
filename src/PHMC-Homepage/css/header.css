@@ -282,3 +282,11 @@
   top: -1.00px;
 
 }
+
+ul {
+  list-style-type: none;
+}
+
+.whiteBack{
+  background-color: white;
+}

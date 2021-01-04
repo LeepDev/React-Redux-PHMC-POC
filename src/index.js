@@ -6,35 +6,51 @@ import { store, history} from './store';
 import { Route, Switch } from 'react-router-dom';
 import { ConnectedRouter } from 'react-router-redux';
 
+import { ChakraProvider } from '@chakra-ui/react';
+import { extendTheme } from "@chakra-ui/react"
+
+
 // import App from './components/App';
 
 import LandingPage from './PHMC-Homepage/LandingPage';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
 import Locations from './PHMC-Homepage/locations';
-import Buy from './PHMC-Homepage/buy';
+import Buy from './PHMC-Homepage/buyTest';
+import BuyTest from './PHMC-Homepage/buyTestStep1';
 import Refi from './PHMC-Homepage/refi';
 import Startnow from './PHMC-Homepage/startnow';
 import Licensing from './PHMC-Homepage/licensing';
 import Ccpa from './PHMC-Homepage/ccpa';
 import EmailPolicy from './PHMC-Homepage/emailPolicy';
 
+const colors = {
+  brand: {
+    900: "#1a365d",
+    800: "#153e75",
+    700: "#2a69ac",
+  },
+}
+const theme = extendTheme({ colors })
+
 ReactDOM.render((
-  <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route path="/careers" component={Careers} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/locations" component={Locations} />
-        <Route path="/buy" component={Buy} />
-        <Route path="/refi" component={Refi} />
-        <Route path="/startnow" component={Startnow} />
-        <Route path="/licensing" component={Licensing} />
-        <Route path="/ccpa" component={Ccpa} />
-        <Route path="/emailPolicy" component={EmailPolicy} />
-      </Switch>
-    </ConnectedRouter>
-  </Provider>
+  <ChakraProvider>
+    <Provider store={store}>
+      <ConnectedRouter history={history}>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/careers" component={Careers} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/locations" component={Locations} />
+          <Route path="/buy" component={Buy} />
+          <Route path="/refi" component={Refi} />
+          <Route path="/startnow" component={Startnow} />
+          <Route path="/licensing" component={Licensing} />
+          <Route path="/ccpa" component={Ccpa} />
+          <Route path="/emailPolicy" component={EmailPolicy} />
+        </Switch>
+      </ConnectedRouter>
+    </Provider>
+  </ChakraProvider>
 
 ), document.getElementById('root'));
