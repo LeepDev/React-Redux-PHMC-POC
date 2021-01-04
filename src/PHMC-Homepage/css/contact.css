@@ -471,25 +471,15 @@
 
 }
 
-.contact .rectangle14 {
-    position: absolute;
+.contact .firstNameInput {
+    position: relative;
       box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      padding-left: 20.00px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-color: rgba(54, 85, 124, 1);
       border-bottom-style: solid;
@@ -503,38 +493,30 @@
       border-top-color: rgba(54, 85, 124, 1);
       border-top-style: solid;
       border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
       -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
       width: 483.00px;
     height: 69.00px;
     left: 172.00px;
     top: 220.00px;
-
+    text-align: left;
+    color: rgba(41, 79, 130, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 25.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
 }
 
-.contact .rectangle15 {
+.contact .LastNameInput {
     position: absolute;
       box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      padding-left: 20.00px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-color: rgba(54, 85, 124, 1);
       border-bottom-style: solid;
@@ -548,38 +530,30 @@
       border-top-color: rgba(54, 85, 124, 1);
       border-top-style: solid;
       border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
       -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
       width: 483.00px;
     height: 69.00px;
     left: 172.00px;
     top: 327.00px;
-
+    text-align: left;
+    color: rgba(41, 79, 130, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 25.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
 }
 
-.contact .rectangle16 {
+.contact .emailAddressInput {
     position: absolute;
       box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      padding-left: 20.00px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-color: rgba(54, 85, 124, 1);
       border-bottom-style: solid;
@@ -593,38 +567,30 @@
       border-top-color: rgba(54, 85, 124, 1);
       border-top-style: solid;
       border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
       -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
       width: 483.00px;
     height: 69.00px;
     left: 172.00px;
     top: 434.00px;
-
+    text-align: left;
+    color: rgba(41, 79, 130, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 25.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
 }
 
-.contact .rectangle74 {
+.contact .phoneNumberInput {
     position: absolute;
       box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      cursor: default;     
+      padding-left: 20.00px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-color: rgba(54, 85, 124, 1);
       border-bottom-style: solid;
@@ -638,38 +604,30 @@
       border-top-color: rgba(54, 85, 124, 1);
       border-top-style: solid;
       border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
       -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
       width: 483.00px;
     height: 69.00px;
     left: 172.00px;
     top: 541.00px;
-
+    text-align: left;
+    color: rgba(41, 79, 130, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 25.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
 }
 
-.contact .rectangle75 {
+.contact .questionInput {
     position: absolute;
       box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
+      padding-left: 20.00px;
       background-color: rgba(255, 255, 255, 1);
       border-bottom-color: rgba(54, 85, 124, 1);
       border-bottom-style: solid;
@@ -683,17 +641,19 @@
       border-top-color: rgba(54, 85, 124, 1);
       border-top-style: solid;
       border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
       -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
     filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
       width: 483.00px;
     height: 69.00px;
     left: 172.00px;
     top: 648.00px;
-
+    text-align: left;
+    color: rgba(41, 79, 130, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 25.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
 }
 
 .contact .component72 {
