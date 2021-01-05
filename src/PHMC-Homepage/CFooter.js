@@ -39,16 +39,16 @@ const Footer = props => {
             <Stack direction="row" align="center">
               <Stack direction="row">
                 <Link to='/'>Home</Link>
-                <Text>|</Text>
-                <Text>Blog</Text>
+                {/* <Text>|</Text>
+                <Text>Blog</Text> */}
                 <Text>|</Text>
                 <Link to='/contact'>Contact</Link>
                 <Text>|</Text>
                 <Link to='/locations'>Locations</Link>
                 <Text>|</Text>
                 <Link to='/careers'>Careers</Link>
-                <Text>|</Text>
-                <Text>Payment</Text>
+                {/* <Text>|</Text>
+                <Text>Payment</Text> */}
               </Stack>
                 
               <Stack direction="row" pr={90} pl={90}>
@@ -59,7 +59,11 @@ const Footer = props => {
 
               <Stack direction="row">
                 <Link to='/emailPolicy'>Email Policy</Link>
-                <Text>| Privacy Policy | Terms of Use |</Text>
+                {/* <Text>|</Text>
+                <Text>Privacy Policy</Text>
+                <Text>|</Text>
+                <Text>Terms of Use</Text> */}
+                <Text>|</Text>
                 <Link to='/ccpa'>CCPA</Link>
                 <Text>|</Text>
                 <Link to='/licensing'>Licensing</Link>
