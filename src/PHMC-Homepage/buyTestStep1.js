@@ -1,10 +1,8 @@
 import React from 'react';
 import { useForm, Controller } from "react-hook-form";
-import Header from './Header';
-import Footer2 from './Footer2';
 
 import { Progress, Grid, Box, Stack, RadioGroup,
-     Radio, GridItem, Text } from '@chakra-ui/react'
+     Radio, GridItem, Text, Button, Input } from '@chakra-ui/react'
 
 
 // function RadioCard(props) {
@@ -45,13 +43,13 @@ function BuyTest1(props) {
         const { next } = props;
 
         return (
-                <form>
+                <form className="formClass">
                     <Grid
                     templateRows="repeat(4, 1fr)"
                     gap={4}>
 
                         {/* First Section */}
-                        <GridItem rowStart={2} rowSpan={1}>
+                        <GridItem rowStart={1} rowSpan={1}>
                         <Controller
                         control={control}
                         name="test"
@@ -60,7 +58,7 @@ function BuyTest1(props) {
                         ) => (
                             <RadioGroup defaultValue="zero" onChange={onChange}>
                                 <Text fontSize="3xl">Where in the process are you?</Text>
-                                <Stack direction="column">
+                                <Stack direction="column" className="radioClass">
                                     <Radio value="research">I'm just researching</Radio>
                                     <Radio value="openHouse">I'm going to open houses</Radio>
                                     <Radio value="offers">I'm making offers</Radio>
@@ -73,13 +71,9 @@ function BuyTest1(props) {
 
                         {/* Second Section */}
                         {(test === "research" || test === "openHouse" || test === "offers") && (
-                            <GridItem rowStart={3} rowSpan={4}>
-                                <Grid
-                                templateRows="repeat(4, 1fr)"
-                                templateColumns="repeat(1, 1fr)"
-                                gap={4}>
+                            <GridItem rowStart={2} rowSpan={3}>
+                                <Stack>
                                     {/* first group */}
-                                    <GridItem rowStart={1}>
                                         <RadioGroup defaultValue="zero">
                                             <Text fontSize="3xl">You're in the right spot. How can we help?</Text>
                                             <Stack direction="column">
@@ -89,10 +83,8 @@ function BuyTest1(props) {
                                                 <Radio value="realEstateAgent">Find a real estate agent</Radio>
                                             </Stack>
                                         </RadioGroup>    
-                                    </GridItem>                    
                                     
                                     {/* second group */}
-                                    <GridItem rowStart={2}>
                                         <RadioGroup defaultValue="zero">
                                             <Text fontSize="3xl">Where in the process are you?</Text>
                                             <Stack direction="column">
@@ -102,40 +94,29 @@ function BuyTest1(props) {
                                                 <Radio value="notSure">Not sure</Radio>
                                             </Stack>
                                         </RadioGroup>                        
-                                    </GridItem>
 
                                     {/* third group */}
-                                    <GridItem rowStart={3}>
+                                    <Stack>
                                         <Text fontSize="3xl">Where are you looking?</Text>
-                                        <input></input>                        
-                                    </GridItem>                
+                                        <Input></Input>                        
+                                    </Stack>
 
                                     {/* Next Button */}
-                                    <GridItem rowStart={4}>
-                                        <button onClick={next}>Next</button>
-                                    </GridItem>     
-                                </Grid>                        
+                                    <Button onClick={next}>Next</Button>
+                                </Stack>
                             </GridItem>
                         )}
 
                         {/* Third Section */}
                         {test === "purchaseContract" && (
-                            <GridItem rowStart={3} rowSpan={1}>
-                                <Grid
-                                templateRows="repeat(2, 1fr)"
-                                templateColumns="repeat(1, 1fr)"
-                                gap={4}>
-                                    {/* first group */}
-                                    <GridItem rowStart={1}>
-                                        <Text fontSize="3xl">Where did you buy?</Text>
-                                        <input></input>                        
-                                    </GridItem>     
+                            <Stack>
+                                <Stack>
+                                    <Text fontSize="3xl">Where did you buy?</Text>
+                                    <Input></Input>                        
+                                </Stack>
 
-                                    <GridItem rowStart={2}>
-                                        <button onClick={next}>Next</button>                  
-                                    </GridItem>     
-                                </Grid>                        
-                            </GridItem>
+                                <Button onClick={next}>Next</Button>                  
+                            </Stack>
                             
                         )}
                     </Grid>

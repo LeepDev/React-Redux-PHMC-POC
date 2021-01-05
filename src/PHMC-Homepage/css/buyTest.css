@@ -11,3 +11,22 @@
     border-bottom: #fff solid 3px;
     color:#fff;
 }
+
+.formClass {
+  font-family: Montserrat, Arial;
+  color: white;
+}
+
+.formClass button{
+  background: rgba(54, 84, 124, 1);
+}
+
+/* .radioClass input[type="radio"]:checked{
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+} */
+
+.radioClass  label:hover {
+  color: rgba(54, 84, 124, 1);
+}

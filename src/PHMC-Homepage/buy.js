@@ -1,8 +1,8 @@
 
 import React from "react";
-import Header from "../Header";
-import Footer2 from "../Footer2";
-import BuyForm from "../buyTestForm";
+import Header from "./Header";
+import Footer2 from "./Footer2";
+import BuyForm from "./buyForm";
 
 import "./css/buy.css";
 

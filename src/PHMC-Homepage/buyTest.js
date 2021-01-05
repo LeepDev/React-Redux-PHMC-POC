@@ -45,7 +45,7 @@ class Buy extends React.Component {
           bgPosition="top"
           bgRepeat="no-repeat">
             <Text width={[.8425, 3/4, 3/4]} className="buyText">Buy</Text>
-            <Grid 
+            <Grid pt={10} pb={10}
               templateColumns="repeat(3, 1fr)">
               <GridItem colStart={2}>
                 <BuyForm></BuyForm>

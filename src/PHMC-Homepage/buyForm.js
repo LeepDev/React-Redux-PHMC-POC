@@ -1,7 +1,5 @@
 import React from "react";
 
-
-import BuyTest from "../buyTestStep1";
 import BuyStep1 from "./buyStep1";
 import BuyStep2 from "./buyStep2";
 import BuyStep3 from "./buyStep3";
@@ -9,8 +7,6 @@ import BuyStep4 from "./buyStep4";
 import BuyStep5 from "./buyStep5";
 import BuyStep6 from "./buyStep6";
 import BuyStep7 from "./buyStep7";
-
-import './css/buy.css';
 
 class BuyForm extends React.Component {
   
@@ -75,7 +71,7 @@ handleSubmit = (event) => {
     switch(currentStep) {
       case 1:
         return (
-          <BuyTest handleChange={this.handleChange} next={this.next} />
+          <BuyStep1 handleChange={this.handleChange} next={this.next} />
         )
       case 2:
         return (

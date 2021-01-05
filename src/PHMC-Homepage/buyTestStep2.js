@@ -1,11 +1,8 @@
 import React from 'react';
 import { useForm, Controller } from "react-hook-form";
-import Header from './Header';
-import Footer2 from './Footer2';
 
 import { Progress, Grid, Box, Stack, RadioGroup,
-     Radio, GridItem, Text } from '@chakra-ui/react'
-
+     Radio, GridItem, Text, Button, Input, Form } from '@chakra-ui/react'
 
 
 function BuyTest2(props) {
@@ -14,13 +11,13 @@ function BuyTest2(props) {
         const { prev, submit } = props;
 
         return (
-                <form>
+                <form className="formClass">
                     <Grid
-                    templateRows="repeat(6, 1fr)"
+                    templateRows="repeat(4, 1fr)"
                     gap={4}>
 
                         {/* First Section */}
-                        <GridItem rowStart={2} rowSpan={1}>
+                        <GridItem rowStart={1} rowSpan={1}>
                         <Controller
                         control={control}
                         name="test"
@@ -42,13 +39,9 @@ function BuyTest2(props) {
 
                         {/* Second Section */}
                         {(test === "research" || test === "openHouse" || test === "offers") && (
-                            <GridItem rowStart={3} rowSpan={4}>
-                                <Grid
-                                templateRows="repeat(3, 1fr)"
-                                templateColumns="repeat(1, 1fr)"
-                                gap={4}>
+                            <GridItem rowStart={2} rowSpan={3}>
+                                <Stack>
                                     {/* first group */}
-                                    <GridItem rowStart={1}>
                                         <RadioGroup defaultValue="zero">
                                             <Text fontSize="3xl">You're in the right spot. How can we help?</Text>
                                             <Stack direction="column">
@@ -58,10 +51,8 @@ function BuyTest2(props) {
                                                 <Radio value="realEstateAgent">Find a real estate agent</Radio>
                                             </Stack>
                                         </RadioGroup>    
-                                    </GridItem>                    
                                     
                                     {/* second group */}
-                                    <GridItem rowStart={2}>
                                         <RadioGroup defaultValue="zero">
                                             <Text fontSize="3xl">Where in the process are you?</Text>
                                             <Stack direction="column">
@@ -71,37 +62,33 @@ function BuyTest2(props) {
                                                 <Radio value="notSure">Not sure</Radio>
                                             </Stack>
                                         </RadioGroup>                        
-                                    </GridItem>
 
                                     {/* third group */}
-                                    <GridItem rowStart={3}>
+                                    <Stack>
                                         <Text fontSize="3xl">Where are you looking?</Text>
-                                        <input></input>                        
-                                    </GridItem>                    
-
+                                        <Input></Input>                        
+                                    </Stack>
 
                                     {/* Prev/Submit Buttons */}
-                                    <GridItem rowStart={4}>
-                                        <Grid
-                                            templateRows="repeat(1, 1fr)"
-                                            templateColumns="repeat(2, 1fr)"
-                                            gap={1}>
-                                            <GridItem colStart={1}>
-                                                <button onClick={prev}>Prev</button>    
-                                            </GridItem>
-                                            
-                                            <GridItem colStart={2}>
-                                                <button onClick={submit}>Submit</button>   
-                                            </GridItem>
-                                        </Grid>               
-                                    </GridItem>
-                                </Grid>                        
+                                    <Grid
+                                        templateRows="repeat(1, 1fr)"
+                                        templateColumns="repeat(2, 1fr)"
+                                        gap={1}>
+                                        <GridItem colStart={1}>
+                                            <Button onClick={prev}>Prev</Button>    
+                                        </GridItem>
+                                        
+                                        <GridItem colStart={2}>
+                                            <Button onClick={submit}>Submit</Button>   
+                                        </GridItem>
+                                    </Grid>
+                                </Stack>
                             </GridItem>
                         )}
 
                         {/* Third Section */}
                         {test === "purchaseContract" && (
-                            <GridItem rowStart={3} rowSpan={1}>
+                            <GridItem rowStart={2} rowSpan={1}>
                                 <Grid
                                 templateRows="repeat(2, 1fr)"
                                 templateColumns="repeat(1, 1fr)"
@@ -109,9 +96,8 @@ function BuyTest2(props) {
                                     {/* first group */}
                                     <GridItem rowStart={1}>
                                         <Text fontSize="3xl">Where did you buy?</Text>
-                                        <input></input>                        
+                                        <Input></Input>                        
                                     </GridItem>     
-
                                     {/* Prev/Submit Buttons */}
                                     <GridItem rowStart={2}>
                                         <Grid
@@ -119,11 +105,11 @@ function BuyTest2(props) {
                                             templateColumns="repeat(2, 1fr)"
                                             gap={1}>
                                             <GridItem colStart={1}>
-                                                <button onClick={prev}>Prev</button>    
+                                                <Button onClick={prev}>Prev</Button>    
                                             </GridItem>
                                             
                                             <GridItem colStart={2}>
-                                                <button onClick={submit}>Submit</button>   
+                                                <Button onClick={submit}>Submit</Button>   
                                             </GridItem>
                                         </Grid>               
                                     </GridItem>

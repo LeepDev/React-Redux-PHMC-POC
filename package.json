@@ -16,6 +16,7 @@
     "@storybook/react": "^6.1.11",
     "bootstrap": "^5.0.0-beta1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "formik": "^2.2.6",
     "framer-motion": "^3.1.1",
     "history": "^4.6.3",
     "marked": "^0.3.6",
@@ -37,7 +38,8 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.1",
     "superagent": "^3.8.2",
-    "superagent-promise": "^1.1.0"
+    "superagent-promise": "^1.1.0",
+    "yup": "^0.32.8"
   },
   "scripts": {
     "start": "cross-env PORT=4100 react-scripts start",

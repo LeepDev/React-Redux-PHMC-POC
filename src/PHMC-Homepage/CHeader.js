@@ -57,14 +57,14 @@ const Header = props => {
         display={{ sm: show ? "block" : "none", md: "block" }}
         mt={{ base: 4, md: 0 }}
       >
-        <Link to="/careers" className="careersC">
-            Careers
-        </Link>
         <Link to="/contact" className="contactC">
             Contact
         </Link>
         <Link to="/locations" className="locationsC">
             Locations
+        </Link>
+        <Link to="/careers" className="careersC">
+            Careers
         </Link>
       </Box>
     </Flex>
