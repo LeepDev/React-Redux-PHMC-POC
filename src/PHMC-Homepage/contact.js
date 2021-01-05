@@ -2,7 +2,7 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Header from './Header';
+import Header from './CHeader';
 import Footer2 from './Footer2';
 import "./css/contact.css";
 import { Col, Container, Row } from "react-bootstrap";
@@ -32,9 +32,9 @@ class Contact extends React.Component {
     return (
       
 <Container>
+    <Header></Header>
           <div data-layer="c8889a80-696d-4845-816d-bf9e850461a7" className="opacityLayer"></div>
 
-          <Header></Header>
           <div className="contactUs">Contact Us</div>
   
   <div className="bodyAlign">
