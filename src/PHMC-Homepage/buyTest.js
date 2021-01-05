@@ -1,11 +1,13 @@
 
 import React from "react";
 import Header from "./CHeader";
-import Footer2 from "./Footer2";
+import Footer from "./CFooter";
 import BuyForm from "./buyTestForm";
+import './css/buyTest.css'
 
-import { Progress, Grid, Box, Stack, RadioGroup,
-  Radio, GridItem, Text } from '@chakra-ui/react'
+import { Progress, Grid, Box, Flex, Stack, RadioGroup,
+  Radio, GridItem, Text, Center } from '@chakra-ui/react'
+import { LinearGradient } from "react-native-svg";
 
 
 class Buy extends React.Component {
@@ -14,9 +16,6 @@ class Buy extends React.Component {
     return (
 
 //         <div data-layer="32cbb582-2c43-4283-9db0-9b97573fbcbb" className="buy"> 
-//           <div data-layer="f4568106-93e9-45bf-8666-5b491ff50f3d" className="rectangle116"></div>
-//           <div data-layer="a542cee0-ca5f-4207-a88f-c2a8b4c46951" className="rectangle117"></div>
-//           <Header></Header>
 //           {/* Buy Header */}
 //           <div data-layer="d23ee23f-0e22-4b21-8bdc-2fb0d848d548" className="buy3677a907">Buy</div>
 //           <svg data-layer="f4bc24a3-6b05-4c88-9c61-d2eeb1b75494" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line16"><path d="M 0 0 L 1591 0"  /></svg>
@@ -41,21 +40,20 @@ class Buy extends React.Component {
           <Box backgroundImage="url('/assets/buy/rectangle116.png')"
             bgPosition="top"
             bgRepeat="no-repeat">
+            <Header></Header>
+          <Box backgroundImage="url('/assets/buy/rectangle117.png')"
+          bgPosition="top"
+          bgRepeat="no-repeat">
+            <Text width={[.8425, 3/4, 3/4]} className="buyText">Buy</Text>
             <Grid 
-              templateRows="repeat(8, 1fr)"
               templateColumns="repeat(3, 1fr)">
-              <GridItem rowStart={1} colSpan={3}>
-                <Header></Header>
-              </GridItem>
-              <GridItem rowStart={2} rowSpan={6} colStart={2}>
+              <GridItem colStart={2}>
                 <BuyForm></BuyForm>
               </GridItem>
-              <GridItem rowStart={8} colSpan={3}>
-                <Header></Header>
-              </GridItem>
-            </Grid>
-        
-        
+            </Grid>        
+          </Box>
+          <Footer></Footer>
+
           </Box>
 
     );

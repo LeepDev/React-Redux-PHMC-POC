@@ -1,3 +1,13 @@
-body {
-    background-image: url(../../assets/buy/rectangle116.png);
+
+ .buyText {
+    position: relative;
+      font-size: 75.00px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+    height: 92.00px;
+    left: 171.00px;
+    top: 35.00px;
+    border-bottom: #fff solid 3px;
+    color:#fff;
 }

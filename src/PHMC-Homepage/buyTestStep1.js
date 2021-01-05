@@ -47,7 +47,7 @@ function BuyTest1(props) {
         return (
                 <form>
                     <Grid
-                    templateRows="repeat(6, 1fr)"
+                    templateRows="repeat(4, 1fr)"
                     gap={4}>
 
                         {/* First Section */}
