@@ -1,41 +1,21 @@
 import React from 'react';
 import { useForm, Controller } from "react-hook-form";
+import { motion, isValidMotionProp } from "framer-motion"
 
 import { Progress, Grid, Box, Stack, RadioGroup,
-     Radio, GridItem, Text, Button, Input } from '@chakra-ui/react'
+     Radio, GridItem, Text, Button, Input,
+     forwardRef,
+     chakra } from '@chakra-ui/react'
 
-
-// function RadioCard(props) {
-//     const { getInputProps, getCheckboxProps } = useRadio(props)
-  
-//     const input = getInputProps()
-//     const checkbox = getCheckboxProps()
-  
-//     return (
-//       <Box as="label">
-//         <input {...input} />
-//         <Box
-//           {...checkbox}
-//           cursor="pointer"
-//           borderWidth="1px"
-//           borderRadius="md"
-//           boxShadow="md"
-//           _checked={{
-//             bg: "teal.600",
-//             color: "white",
-//             borderColor: "teal.600",
-//           }}
-//           _focus={{
-//             boxShadow: "outline",
-//           }}
-//           px={5}
-//           py={3}
-//         >
-//           {props.children}
-//         </Box>
-//       </Box>
-//     )
-//   }
+    const MotionBox = motion.custom(
+    forwardRef((props, ref) => {
+        const chakraProps = Object.fromEntries(
+        // do not pass framer props to DOM element
+        Object.entries(props).filter(([key]) => !isValidMotionProp(key)),
+        )
+        return <chakra.div ref={ref} {...chakraProps} />
+    }),
+    )
 
 function BuyTest1(props) {
         const { register, watch, control } = useForm();
@@ -56,15 +36,26 @@ function BuyTest1(props) {
                         render={(
                             { onChange }
                         ) => (
-                            <RadioGroup defaultValue="zero" onChange={onChange}>
-                                <Text fontSize="3xl">Where in the process are you?</Text>
-                                <Stack direction="column" className="radioClass">
-                                    <Radio value="research">I'm just researching</Radio>
-                                    <Radio value="openHouse">I'm going to open houses</Radio>
-                                    <Radio value="offers">I'm making offers</Radio>
-                                    <Radio value="purchaseContract">I have signed a purchase contract</Radio>
-                                </Stack>
-                            </RadioGroup>
+                            <MotionBox animate={{ opacity: [0,1] }}
+                            transition={{ duration: 0.5, times: [0, 1], repeat: 0}}>                        
+                                <RadioGroup defaultValue="zero" onChange={onChange}>
+                                    <Text fontSize="3xl">Where in the process are you?</Text>
+                                    <Stack direction="column" align="left" className="radioClass">
+                                        <MotionBox whileHover={{ scale: .98 }} whileTap={{ scale: 0.95 }} >
+                                            <Radio value="research">I'm just researching</Radio>
+                                        </MotionBox>
+                                        <MotionBox whileHover={{ scale: .98 }} whileTap={{ scale: 0.95 }} >
+                                            <Radio value="openHouse">I'm going to open houses</Radio>
+                                        </MotionBox>
+                                        <MotionBox whileHover={{ scale: .98 }} whileTap={{ scale: 0.95 }} >
+                                            <Radio value="offers">I'm making offers</Radio>
+                                        </MotionBox>
+                                        <MotionBox whileHover={{ scale: .98 }} whileTap={{ scale: 0.95 }} >
+                                            <Radio value="purchaseContract">I have signed a purchase contract</Radio>
+                                        </MotionBox>
+                                    </Stack>
+                                </RadioGroup>
+                            </MotionBox>
                             )} 
                             />
                         </GridItem>
@@ -72,38 +63,43 @@ function BuyTest1(props) {
                         {/* Second Section */}
                         {(test === "research" || test === "openHouse" || test === "offers") && (
                             <GridItem rowStart={2} rowSpan={3}>
-                                <Stack>
-                                    {/* first group */}
-                                        <RadioGroup defaultValue="zero">
-                                            <Text fontSize="3xl">You're in the right spot. How can we help?</Text>
-                                            <Stack direction="column">
-                                                <Radio value="preApproval">Get a Pre-approval Letter</Radio>
-                                                <Radio value="affordability">See how much I can afford</Radio>
-                                                <Radio value="homeCost">Estimate a home's cost</Radio>
-                                                <Radio value="realEstateAgent">Find a real estate agent</Radio>
-                                            </Stack>
-                                        </RadioGroup>    
-                                    
-                                    {/* second group */}
-                                        <RadioGroup defaultValue="zero">
-                                            <Text fontSize="3xl">Where in the process are you?</Text>
-                                            <Stack direction="column">
-                                                <Radio value="0-3mo">0-3 months</Radio>
-                                                <Radio value="3-6mo">3-6 months</Radio>
-                                                <Radio value="6+mo">6+ months</Radio>
-                                                <Radio value="notSure">Not sure</Radio>
-                                            </Stack>
-                                        </RadioGroup>                        
-
-                                    {/* third group */}
+                                
+                            
+                            <MotionBox animate={{ opacity: [0,1] }}
+                            transition={{ duration: 0.5, times: [0, 1]}}>   
                                     <Stack>
-                                        <Text fontSize="3xl">Where are you looking?</Text>
-                                        <Input></Input>                        
-                                    </Stack>
+                                        {/* first group */}
+                                            <RadioGroup defaultValue="zero">
+                                                <Text fontSize="3xl">You're in the right spot. How can we help?</Text>
+                                                <Stack direction="column">
+                                                    <Radio value="preApproval">Get a Pre-approval Letter</Radio>
+                                                    <Radio value="affordability">See how much I can afford</Radio>
+                                                    <Radio value="homeCost">Estimate a home's cost</Radio>
+                                                    <Radio value="realEstateAgent">Find a real estate agent</Radio>
+                                                </Stack>
+                                            </RadioGroup>    
+                                        
+                                        {/* second group */}
+                                            <RadioGroup defaultValue="zero">
+                                                <Text fontSize="3xl">Where in the process are you?</Text>
+                                                <Stack direction="column">
+                                                    <Radio value="0-3mo">0-3 months</Radio>
+                                                    <Radio value="3-6mo">3-6 months</Radio>
+                                                    <Radio value="6+mo">6+ months</Radio>
+                                                    <Radio value="notSure">Not sure</Radio>
+                                                </Stack>
+                                            </RadioGroup>                        
 
-                                    {/* Next Button */}
-                                    <Button onClick={next}>Next</Button>
-                                </Stack>
+                                        {/* third group */}
+                                        <Stack>
+                                            <Text fontSize="3xl">Where are you looking?</Text>
+                                            <Input></Input>                        
+                                        </Stack>
+
+                                        {/* Next Button */}
+                                        <Button onClick={next}>Next</Button>
+                                    </Stack>
+                                </MotionBox>
                             </GridItem>
                         )}
 
