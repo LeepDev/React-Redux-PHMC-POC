@@ -358,3 +358,7 @@ border: #36547c solid 3px;
     border-bottom: #fff solid 3px;
     color:#fff;
 }
+
+@media only screen and (max-width: 600px) {
+  
+}
