@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import BuyTest from "./buyTestStep1";
+import BuyTest from "../buyTestStep1";
 import BuyStep1 from "./buyStep1";
 import BuyStep2 from "./buyStep2";
 import BuyStep3 from "./buyStep3";

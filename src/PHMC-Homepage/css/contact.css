@@ -27,7 +27,7 @@
 }
 
  .formAlign{
-  top: 180px;
+  top: 35px;
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -39,7 +39,7 @@
   margin:12px 0;
 }
 .contactButtonAlign{
-  top: 180px;
+  top: 35px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -340,7 +340,7 @@ border: #36547c solid 3px;
 }
 
  .contactUs {
-    position: absolute;
+    position: relative;
       font-size: 75.00px;
       font-weight: 300;
     font-style: normal;
@@ -348,7 +348,7 @@ border: #36547c solid 3px;
       width: 84.25%;
     height: 92.00px;
     left: 171.00px;
-    top: 95.00px;
+    top: 35.00px;
     border-bottom: #fff solid 3px;
     color:#fff;
 }
