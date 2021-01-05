@@ -33,6 +33,7 @@ class Contact extends React.Component {
       
 <Container>
     <Header></Header>
+          <div data-layer="f5f9a899-2a7f-4cfb-bfd0-afcb3c20dc87" className="backgroundLayer"></div>
           <div data-layer="c8889a80-696d-4845-816d-bf9e850461a7" className="opacityLayer"></div>
 
           <div className="contactUs">Contact Us</div>
@@ -56,7 +57,7 @@ class Contact extends React.Component {
 <Button className="chat">Chat</Button>
 </div>
 </div>
-          <Footer2></Footer2>
+         <Footer2></Footer2>
           </Container>
     );
   }

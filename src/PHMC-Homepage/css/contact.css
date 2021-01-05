@@ -51,21 +51,27 @@
 }
 .opacityLayer {
       background-image: url("../../assets/contact/rectangle3.png");
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      width: 1920.00px;
-    height: 880.00px;
+      z-index:0;
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      top:0;
+      left:0
 }
-.container {
+.backgroundLayer {
   background-image: url("../../assets/contact/rectangle4.png");
-z-index: -1;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
-width: 100%;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0
 }
 
 .firstNameInput {
