@@ -28,5 +28,6 @@
 } */
 
 .radioClass  label:hover {
-  color: rgba(54, 84, 124, 1);
+  border-color: blueviolet;
 }
+
