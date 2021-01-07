@@ -157,7 +157,22 @@ top: 2668.00px;
       width: 175.00px;
       height: 66.00px;
 }
-    
+.homeSection{
+  display:flex;
+}
+.aboutUsSection{
+display:flex;
+}
+.calculatorSection{
+  display:flex;
+}
+.blogSection{
+  display:flex;
+}
+.reviewSection{
+  display:flex;
+}
+
  .homebackgroundTwo {
     position: absolute;
       box-sizing: border-box;

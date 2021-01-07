@@ -1,27 +1,35 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from 'react';
+import ReactDOM from 'react-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
 import Footer2 from './Footer2';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from "react";
 import {
-  motion,
-  useViewportScroll,
-  useSpring,
-  useTransform
-} from "framer-motion";
+    useViewportScroll,
+    motion,
+    useTransform,
+    useMotionValue
+  } from 'framer-motion';
+  import { useInView } from 'react-intersection-observer';
 import "./css/landingPage.css";
-import { Container } from "react-bootstrap";
 
-class LandingPage extends React.Component {
-
-  constructor(props) {
-      super(props);
-      this.state = {
-
-      };
-  }
+function motion(props) {
+    const { scrollY } = useViewportScroll();
+ 
+    const [ref, inView, entry] = useInView({
+      threshold: 0.5,
+      triggerOnce: false
+    });
+  
+    const variants = {
+      visible: { opacity: 1, scale: 1, y: 0 },
+      hidden: {
+        opacity: 0,
+        scale: 0.65,
+        y: 50
+      }
+    };
   
   render() {
     
@@ -29,7 +37,7 @@ class LandingPage extends React.Component {
         <div className="web19201">
 
         {/* Section home */}
-
+        <div className="homeSection" >
         <div className="homebackgroundOne"></div>
         <div className="opacityBackgroundOne"></div>
         <div className="freedomToChooseTheHomeYouLove"><span className="h2Bold">Freedom</span><span className="h2Normal"> to choose the </span><span className="h2Bold">Home</span><span className="h2Normal"> you love</span></div>
@@ -37,9 +45,14 @@ class LandingPage extends React.Component {
         <Header></Header>
         <Button  className="buy">Buy</Button>
         <Button className="refinance">Refi</Button>
-
+        </div>
         {/* Section who we are */}
 
+        <motion.div className="aboutUsSection" 
+        animate={inView ? 'visible' : 'hidden'} 
+        variants={variants} 
+        transition={{ duration: 2, ease: 'easeOut' }} 
+        ref={ref} >
         <div className="homebackgroundTwo"></div>
         <div className="opacityBackgroundTwo"></div>
         <div className="whoHeader">Who We Are</div>
@@ -49,9 +62,10 @@ class LandingPage extends React.Component {
         <div className="h3Title"><span className="h2Normal">What makes us </span><span className="h2Bold">Different</span></div>
         <div className="p2Bottom">Working with a direct lender, like Platinum, can help you achieve your homeownership goals in a much smoother, simpler process</div>
         <Button className="startNow">Start Now</Button>
-        
-        {/* Section monthly payment */}
+        </motion.div >
 
+        {/* Section monthly payment 
+        <div className="calculatorSection">
         <div data-layer="7b1a967c-f8eb-41e3-a183-1d00ab4e630a" className="homebackgroundThree"></div>
         <div data-layer="ec5bc445-350b-46b5-b4df-238fd0868695" className="opacityBackgroundThree"></div>
         <div className="calculatorHeader">Monthly Payments Made Easy</div>
@@ -70,9 +84,10 @@ class LandingPage extends React.Component {
         <div className="preapprovalText">A preapproval can give you the exact amount you can afford at no obligation or cost to you.</div>
         <Button className="startNow2">Start Now</Button>
         </div>
+        </div>*/}
 
-        {/* Section fresh look at your home */}
-
+        {/* Section fresh look at your home 
+        <div className="blogSection">
         <div data-layer="7c4b1248-f8d6-467d-a449-f1f8e1716956" className="homebackgroundFour"></div>
         <div data-layer="008d7c41-0aa6-4683-8a28-3f047c3df5be" className="opacityBackgroundFour"></div>
         <div className="blogHeader">A fresh look at your home</div>
@@ -103,9 +118,9 @@ class LandingPage extends React.Component {
         <div className="blogtext1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
         <div className="blogtext2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
         <div className="blogtext3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
-        
-{/* Section WHAT PEOPLE are saying */}
-
+        </div>*/}
+{/* Section WHAT PEOPLE are saying 
+        <div className="reviewSection">
         <div data-layer="1ed34e77-c88a-4d34-8df2-22fc982ccdb4" className="homebackgroundFive"></div>
         <div data-layer="ffa322ed-cc8c-4119-acdc-7a7ee16b702e" className="opacityBackgroundFive"></div>
         <div className="reviewHeader">What people are saying</div>
@@ -119,7 +134,8 @@ class LandingPage extends React.Component {
             <svg data-layer="e0743d37-ec41-46b9-900e-76f731bf6f3f" preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse17"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
             <svg data-layer="a69921c3-def7-41c1-94e8-0cf6412ddbe7" preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse18"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
             <svg data-layer="bcc5a91e-9a7e-4c4b-a5c6-cbbd3647b5b1" preserveAspectRatio="none" viewBox="-0.75 -0.75 19.5 18.5" className="ellipse19"><path d="M 9 0 C 13.97056198120117 0 18 3.805579662322998 18 8.5 C 18 13.19441986083984 13.97056198120117 17 9 17 C 4.02943754196167 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 4.02943754196167 0 9 0 Z"  /></svg>
-</div>
+        </div>
+        </div>*/}
 <Footer2></Footer2> 
         
 </div>
