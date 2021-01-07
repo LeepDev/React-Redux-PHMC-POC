@@ -3,8 +3,8 @@ import { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Header from './CHeader';
-import Footer from './Footer2';
+import Header from './CHeader2';
+import Footer from './CFooter2';
 import { Link } from 'react-router-dom';
 import {
     useViewportScroll,
@@ -143,10 +143,7 @@ function LandingPage(props) {
         </div>
         </motion.div>
         
-        <motion.div className="footerSection"
-        style={{ y: y6, x: 0 }} >
         <Footer></Footer> 
-        </motion.div>
 </div>
     );
   }
