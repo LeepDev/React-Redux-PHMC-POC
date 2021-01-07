@@ -2,7 +2,7 @@ import React from "react";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
-import Footer2 from './Footer2';
+import Footer from './CFooter';
 import "./css/contact.css";
 
 
@@ -55,7 +55,7 @@ class Contact extends React.Component {
 <Button className="chat">Chat</Button>
 </div>
 </div>
-        <Footer2></Footer2> 
+        <Footer mt={152}></Footer> 
           </div>
     );
   }
