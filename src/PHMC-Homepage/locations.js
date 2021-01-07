@@ -34,9 +34,9 @@ class Locations extends React.Component {
         pb={120}
         >        {/* <div data-layer="712ba49b-9510-4cca-b239-5646d5c5f246" className="rectangle4"></div> */}
         {/* <div data-layer="2a6ec6be-6241-4bd3-826b-c82e91147799" className="rectangle3"></div> */}
-        {/* <svg data-layer="56e18b2f-d709-4270-8db4-c08811d45c43" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line1ab976f2a"><path d="M 0 0 L 1591 0"  /></svg> */}
-        <Text width={[.8425, 3/4, 3/4]} className="buyText">Locations</Text>
-        {/* <div data-layer="3594dcba-fd8e-4612-8b4c-cdfd21ecc0da" className="locations481b439c">Locations</div> */}
+        <svg data-layer="56e18b2f-d709-4270-8db4-c08811d45c43" preserveAspectRatio="none" viewBox="0 -1.5 1591 3" className="line1ab976f2a"><path d="M 0 0 L 1591 0"  /></svg>
+        {/* <Text width={[.8425, 3/4, 3/4]} className="buyText">Locations</Text> */}
+        <div data-layer="3594dcba-fd8e-4612-8b4c-cdfd21ecc0da" className="locations481b439c">Locations</div>
         <div data-layer="1f754786-f76a-4579-81c0-9437e6353bb0" className="rectangle57"></div>
         <div data-layer="3425a277-3f9a-4eaf-8288-6923b753c8de" className="rectangle75"></div>
         <div data-layer="38094289-8fb8-490b-8095-8d11893c3398" className="enterZipCode">Enter Zip Code</div>
