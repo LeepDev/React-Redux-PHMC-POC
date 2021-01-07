@@ -23,6 +23,7 @@ const Header = props => {
       padding=".9rem"
       color="white"
       backgroundImage="url('/assets/buy/rectangle117.png')"
+      width="100%"
       {...props}
     >
       <Flex align="center" mr={5}>
