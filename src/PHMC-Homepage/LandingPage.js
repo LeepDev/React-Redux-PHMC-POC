@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
-import Footer2 from './Footer2';
+import Footer from './Footer2';
 import { Link } from 'react-router-dom';
 import {
     useViewportScroll,
@@ -17,11 +17,12 @@ import "./css/landingPage.css";
 
 function LandingPage(props) {
   const { scrollY } = useViewportScroll();
-  const y1 = useTransform(scrollY, [0, 9000], [0, 9000]);
-  const y2 = useTransform(scrollY, [0, 7500], [0, 6000]);
-  const y3 = useTransform(scrollY, [0, 4500], [0, 4000]);
-  const y4 = useTransform(scrollY, [0, 4000], [0, 4000]);
-  const y5 = useTransform(scrollY, [0, 4000], [0, 4000]);
+  const y1 = useTransform(scrollY, [0, 250, 500], [0, 0, 50]);
+  const y2 = useTransform(scrollY, [500, 1000, 3000, 3500, 3800], [500, 100, 1700, 1600, 1000]);
+  const y3 = useTransform(scrollY, [4000, 4300, 4500, 6000], [2500, 2150, 2300, 3700]);
+  const y4 = useTransform(scrollY, [7500, 8000, 11500, 12000], [5000, 4800, 7500, 7400]);
+  const y5 = useTransform(scrollY, [13000, 13300, 17500], [9700, 9500, 13000]);
+  const y6 = useTransform(scrollY, [500, 1000], [0, 0]);
 
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -48,11 +49,11 @@ function LandingPage(props) {
         <div className="opacityBackgroundOne"></div>
         <div className="freedomToChooseTheHomeYouLove"><span className="h2Bold">Freedom</span><span className="h2Normal"> to choose the </span><span className="h2Bold">Home</span><span className="h2Normal"> you love</span></div>
         <div className="withALenderWhoCares"><span className="h2Normal">with a lender who </span><span className="h2Bold">Cares</span></div>
-        <Button  className="buy">Buy</Button>
-        <Button className="refinance">Refi</Button>
+        <Link to="/buy"><Button className="buy">Buy</Button></Link>
+        <Link to="/refi"><Button className="refinance">Refi</Button></Link>
         </motion.div>
-        {/* Section who we are */}
 
+        {/* Section who we are */}
         <motion.div className="aboutUsSection" 
         style={{ y: y2, x: 0 }} >
         <div className="homebackgroundTwo"></div>
@@ -141,8 +142,11 @@ function LandingPage(props) {
             <svg data-layer="bcc5a91e-9a7e-4c4b-a5c6-cbbd3647b5b1" preserveAspectRatio="none" viewBox="-0.75 -0.75 19.5 18.5" className="ellipse19"><path d="M 9 0 C 13.97056198120117 0 18 3.805579662322998 18 8.5 C 18 13.19441986083984 13.97056198120117 17 9 17 C 4.02943754196167 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 4.02943754196167 0 9 0 Z"  /></svg>
         </div>
         </motion.div>
-<Footer2></Footer2> 
         
+        <motion.div className="footerSection"
+        style={{ y: y6, x: 0 }} >
+        <Footer></Footer> 
+        </motion.div>
 </div>
     );
   }
