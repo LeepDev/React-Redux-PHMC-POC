@@ -1,6 +1,4 @@
-
-
-      html {
+ html {
         height: 100%;
         width: 100%;
       }
@@ -16,579 +14,151 @@
         -ms-overflow-style: none;
       }
 
-      
-
-      .web19201 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: auto;
-      overflow-y: auto;
-      background-color: rgba(255, 255, 255, 1);
-      width: 1920.00px;
-    height: 5282.00px;
-    left: 0px;
-    top: 0px;
-
-}
-
-.web19201 .rectangle108 {
+ .homebackgroundFour {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle108.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1025.00px;
     left: 0.00px;
     top: 3175.00px;
-
 }
 
-.web19201 .rectangle81 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
+.homebackgroundOne {
       background-image: url("../../assets/landingPage/rectangle81.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 1920.00px;
-    height: 1022.00px;
-    left: -1.00px;
-    top: 0.00px;
-
+      z-index:0;
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1020px;
+      width: 100%;
+      top:0;
+      left:0
 }
 
-.web19201 .rectangle82 {
+.opacityBackgroundOne {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle82.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 0.4424700140953064;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
+    opacity:0.75;
       width: 1920.00px;
     height: 1022.00px;
     left: -1.00px;
     top: 0.00px;
-
 }
 
-.web19201 .freedomToChooseTheHomeYouLove {
+.freedomToChooseTheHomeYouLove {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: center;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 76.00px;
       font-weight: 400;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
+      border-top:#fff solid 3px;
       width: 1480.00px;
     height: 93.00px;
     left: 219.00px;
     top: 399.00px;
-
 }
 
-.web19201 .freedomToChooseTheHomeYouLove .freedomToChooseTheHomeYouLove-0 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .freedomToChooseTheHomeYouLove .freedomToChooseTheHomeYouLove-7 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .freedomToChooseTheHomeYouLove .freedomToChooseTheHomeYouLove-22 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .freedomToChooseTheHomeYouLove .freedomToChooseTheHomeYouLove-26 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .withALenderWhoCares {
+ .withALenderWhoCares {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 76.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 76.00px;
+    font-weight: 400;
+  font-style: normal;
+    font-family: Montserrat, Arial;
       width: 938.00px;
     height: 93.00px;
     left: 490.00px;
     top: 492.00px;
 
 }
-
-.web19201 .withALenderWhoCares .withALenderWhoCares-0 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .withALenderWhoCares .withALenderWhoCares-18 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 76.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .line9 {
-    position: absolute;
+.buy, .refinance, .calculate{
+  display: block;
+  background-color: transparent;
+  width: 175.00px;
+height: 66.00px;  
+border: #36547c solid 3px;
       box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       opacity: 1;
       cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 3.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 1591.00px;
-    height: 3.00px;
-    left: 163.50px;
-    top: 382.00px;
-
-}
-
-.web19201 .component42 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("../../assets/landingPage/component42.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 106.00px;
-    height: 66.00px;
-    left: 736.00px;
-    top: 833.00px;
-
-}
-
-.web19201 .component42 .path2 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(72, 105, 148, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 106.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component42 .buy {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(41, 79, 130, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 30.00px;
-      font-weight: 500;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 58.00px;
-    height: 37.00px;
-    left: 24.00px;
-    top: 15.00px;
-
-}
-
-.web19201 .component52 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("../../assets/landingPage/component52.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 106.00px;
-    height: 66.00px;
-    left: 1126.00px;
-    top: 833.00px;
-
-}
-
-.web19201 .component52 .rectangle10 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: transparent;
-      border-bottom-color: rgba(72, 105, 148, 1);
-      border-bottom-style: solid;
-      border-bottom-width: 2.00px;
-      border-left-color: rgba(72, 105, 148, 1);
-      border-left-style: solid;
-      border-left-width: 2.00px;
-      border-right-color: rgba(72, 105, 148, 1);
-      border-right-style: solid;
-      border-right-width: 2.00px;
-      border-top-color: rgba(72, 105, 148, 1);
-      border-top-style: solid;
-      border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 106.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component52 .refi {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
       color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
       font-size: 30.00px;
       font-weight: 400;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 58.00px;
-    height: 37.00px;
-    left: 24.00px;
-    top: 15.00px;
+      transition-duration: 0.5s;
+}
+.buy:hover, .refinance:hover, .calculate:hover {
+  transition-duration: 0.5s;
+  color: rgb(255, 255, 255);
+  background-color:  rgba(54, 84, 124, 1);
+}
+.buy {
+  position: absolute;
+    left: 736.00px;
+    top: 833.00px;
 
 }
-
-.web19201 .rectangle88 {
+.refinance {
+  position: absolute;
+      left: 1126.00px;
+      top: 833.00px;
+}
+.calculate {
+  position: absolute;
+left: 332.00px;
+top: 2668.00px;
+}
+.startNow3{
+  position:absolute;
+  left: 1583.00px;
+  top: 4756px;
+}
+.startNow2{
+  position:absolute;
+  left: 1589px;
+  top: 2835px;
+}
+.startNow{
+  position:absolute;
+  left: 1581px;
+      top: 1794px;
+}
+.startNow:hover, .startNow2:hover, .startNow3:hover, .ceo:hover, .holiday:hover, .market:hover, .realEstate:hover, .resources:hover, .spotLight:hover, .technology:hover  {
+  transition-duration: 0.5s;
+  color: rgb(54, 84, 124, 1);
+  background-color:  rgba(255, 255, 255);
+}
+ .startNow, .startNow2, .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology  {
+  display: block;
+  background-color: transparent;  
+  border: #fff solid 3px;
+    position: relative;
+      box-sizing: content-box;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      transition-duration: 0.5s;
+      width: 175.00px;
+      height: 66.00px;
+}
+    
+ .homebackgroundTwo {
     position: absolute;
       box-sizing: border-box;
       -ms-transform: rotate(0.00deg);
@@ -601,110 +171,27 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: solid;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: solid;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: solid;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: solid;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1058.00px;
     left: 0.00px;
     top: 1035.00px;
-
 }
 
-.web19201 .rectangle89 {
+ .opacityBackgroundTwo {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle89.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 0.4995479881763458;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
+      opacity: 0.55;
       width: 1920.00px;
     height: 1058.00px;
     left: 0.00px;
     top: 1035.00px;
-
 }
 
-.web19201 .weAreNotJustAnotherLender {
+.h2Title {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
       -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
@@ -712,782 +199,176 @@
       font-weight: 700;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
       width: 870.00px;
     height: 67.00px;
     left: 888.00px;
     top: 1567.00px;
-
 }
 
-.web19201 .weAreNotJustAnotherLender .weAreNotJustAnotherLender-0 {
-    color: rgba(255, 255, 255, 1);
+.h2Normal {
     font-weight: 400;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
 }
 
-.web19201 .weAreNotJustAnotherLender .weAreNotJustAnotherLender-7 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
+.h2Bold {
+    font-weight: 900;
 }
 
-.web19201 .weAreNotJustAnotherLender .weAreNotJustAnotherLender-10 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .weAreNotJustAnotherLender .weAreNotJustAnotherLender-24 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .whatMakesUsDifferent {
+.h3Title {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
       text-align: center;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 55.00px;
       font-weight: 700;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
       width: 692.00px;
     height: 67.00px;
     left: 171.00px;
     top: 1833.00px;
-
 }
-
-.web19201 .whatMakesUsDifferent .whatMakesUsDifferent-0 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .whatMakesUsDifferent .whatMakesUsDifferent-14 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 55.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .hereAtPlatinumHomeMortgageWeAreInTheBusinessOfHelpingPeopleOurBeliefIsThatYourHomeIsWhereLoveAndSecurityComesFromWeStriveToGetEveryPersonIntoTheirOwnHomeTalkToOurAmazingTeamTodayToSeeWhatTheyCanDoForYou {
+.p2Top {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 25.00px;
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
       width: 873.00px;
     height: 132.00px;
     left: 888.00px;
     top: 1654.00px;
 
 }
-
-.web19201 .workingWithADirectLenderLikePlatinumCanHelpYouAchieveYourHomeownershipGoalsInAMuchSmootherSimplerProcess {
+.p2Bottom {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 25.00px;
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
       width: 717.00px;
     height: 132.00px;
     left: 171.00px;
     top: 1920.00px;
-
 }
 
-.web19201 .line10 {
+.line10 {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
       stroke: rgba(255, 255, 255, 1);
-          stroke-width: 3.00px;
+          stroke-width: 3px;
           stroke-linecap: butt;
-      box-shadow: none;
-      width: 1591.00px;
-    height: 3.00px;
+      width: 1591px;
+    height: 3px;
     left: 169.50px;
-    top: 1799.00px;
-
+    top: 1822px;
 }
 
-.web19201 .component618 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 1586.00px;
-    top: 1833.00px;
-
-}
-
-.web19201 .component618 .path1e868ca31 {
+ .whoHeader {
     position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component618 .startNowe84ab019 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 150.00px;
-    height: 37.00px;
-    left: 12.00px;
-    top: 15.00px;
-
-}
-
-.web19201 .rectangle86 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle86.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(54, 84, 124, 1);
-      border-bottom-color: rgba(255, 255, 255, 1);
-      border-bottom-style: none;
-      border-bottom-width: 5.00px;
-      border-left-color: rgba(255, 255, 255, 1);
-      border-left-style: none;
-      border-left-width: 5.00px;
-      border-right-color: rgba(255, 255, 255, 1);
-      border-right-style: none;
-      border-right-width: 5.00px;
-      border-top-color: rgba(255, 255, 255, 1);
-      border-top-style: none;
-      border-top-width: 5.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 45.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 45.00px;
-      box-shadow: none;
-      width: 379.00px;
+    text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 45.00px;
+    font-weight: 300;
+  font-style: normal;
+    font-family: Montserrat, Arial;
+    padding-top: 8px;
+    width: 379.00px;
     height: 85.00px;
     left: -1.00px;
     top: 982.00px;
-
 }
 
-.web19201 .whoWeAre {
+ .homebackgroundThree {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 45.00px;
-      font-weight: 300;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 276.00px;
-    height: 55.00px;
-    left: 40.00px;
-    top: 997.00px;
-
-}
-
-.web19201 .rectangle91 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle91.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1054.00px;
     left: 1.00px;
     top: 2106.00px;
-
 }
 
-.web19201 .rectangle92 {
+.opacityBackgroundThree {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle92.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
       opacity: 0.4995479881763458;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1056.00px;
     left: 1.00px;
     top: 2106.00px;
-
 }
 
-.web19201 .rectangle93 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(54, 85, 124, 1);
-      border-bottom-style: solid;
-      border-bottom-width: 2.00px;
-      border-left-color: rgba(54, 85, 124, 1);
-      border-left-style: solid;
-      border-left-width: 2.00px;
-      border-right-color: rgba(54, 85, 124, 1);
-      border-right-style: solid;
-      border-right-width: 2.00px;
-      border-top-color: rgba(54, 85, 124, 1);
-      border-top-style: solid;
-      border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-      width: 483.00px;
-    height: 69.00px;
-    left: 172.00px;
+.loanAmount {
+  position: absolute;
+  left: 172.00px;
     top: 2337.00px;
-
 }
-
-.web19201 .rectangle94 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(54, 85, 124, 1);
-      border-bottom-style: solid;
-      border-bottom-width: 2.00px;
-      border-left-color: rgba(54, 85, 124, 1);
-      border-left-style: solid;
-      border-left-width: 2.00px;
-      border-right-color: rgba(54, 85, 124, 1);
-      border-right-style: solid;
-      border-right-width: 2.00px;
-      border-top-color: rgba(54, 85, 124, 1);
-      border-top-style: solid;
-      border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-      width: 483.00px;
-    height: 69.00px;
-    left: 172.00px;
-    top: 2444.00px;
-
+.interestRate {
+  position: absolute;
+  left: 172.00px;
+  top: 2444.00px;
 }
-
-.web19201 .rectangle95 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(54, 85, 124, 1);
-      border-bottom-style: solid;
-      border-bottom-width: 2.00px;
-      border-left-color: rgba(54, 85, 124, 1);
-      border-left-style: solid;
-      border-left-width: 2.00px;
-      border-right-color: rgba(54, 85, 124, 1);
-      border-right-style: solid;
-      border-right-width: 2.00px;
-      border-top-color: rgba(54, 85, 124, 1);
-      border-top-style: solid;
-      border-top-width: 2.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
-      width: 483.00px;
-    height: 69.00px;
-    left: 172.00px;
+.loanTime {
+  position: absolute;
+  left: 172.00px;
     top: 2551.00px;
-
+}
+    .loanAmount, .interestRate, .loanTime {
+    box-sizing: border-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    padding-left: 20.00px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-color: rgba(54, 85, 124, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 2.00px;
+    border-left-color: rgba(54, 85, 124, 1);
+    border-left-style: solid;
+    border-left-width: 2.00px;
+    border-right-color: rgba(54, 85, 124, 1);
+    border-right-style: solid;
+    border-right-width: 2.00px;
+    border-top-color: rgba(54, 85, 124, 1);
+    border-top-style: solid;
+    border-top-width: 2.00px;
+    -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
+    width: 483.00px;
+  height: 69.00px;
+  text-align: center;
+  color: rgba(41, 79, 130, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 25.00px;
+  font-weight: 300;
+font-style: normal;
+  font-family: Montserrat, Arial;
 }
 
-.web19201 .component74 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 332.00px;
-    top: 2668.00px;
-
-}
-
-.web19201 .component74 .path1f3972f84 {
+.getAPreapproaval {
     position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(54, 84, 124, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component74 .calculate {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 140.00px;
-    height: 37.00px;
-    left: 17.00px;
-    top: 15.00px;
-
-}
-
-.web19201 .getAPreapproaval {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 50.00px;
       font-weight: 400;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
       width: 476.00px;
     height: 61.00px;
     left: 172.00px;
@@ -1495,426 +376,57 @@
 
 }
 
-.web19201 .quickLookAtYourMonthlyPayments {
+.quickLookAtYourMonthlyPayments {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 45.00px;
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
       text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 836.00px;
+      width: auto;
     height: 55.00px;
     left: 172.00px;
     top: 2231.00px;
-
 }
 
-.web19201 .aPreapprovalCanGiveYouTheExactAmountYouCanAffordAtNoObligationOrCostToYou {
+.preapprovalText {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
       font-size: 25.00px;
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
       text-decoration: none;
-      box-shadow: none;
-      overflow-x: auto;
-      overflow-y: auto;
-      width: 574.00px;
+      width: 619px;
     height: 68.00px;
     left: 172.00px;
     top: 3019.00px;
 
 }
 
-.web19201 .line12 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 3.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 1591.00px;
-    height: 3.00px;
-    left: 170.50px;
-    top: 2902.00px;
-
+.monthlyPayment {
+  position: absolute;
+  border-bottom: #fff solid 6px;
+  background-color: transparent;
+  text-align: center;
+  color: rgba(41, 79, 130, 1);
+  font-size: 25.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Montserrat, Arial;
+  width: 481px;
+  height: 49px;
+  padding-bottom: 13px;
+  left: 173px;
+  top: 2791.00px;
 }
 
-.web19201 .howMuchDoYouWantToBorrow {
+.calculatorHeader {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.7544729709625244;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(41, 79, 130, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 300;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 436.00px;
-    height: 30.00px;
-    left: 195.00px;
-    top: 2357.00px;
-
-}
-
-.web19201 .whatIsTheInterestRate {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.7544729709625244;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(41, 79, 130, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 300;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 306.00px;
-    height: 30.00px;
-    left: 260.00px;
-    top: 2464.00px;
-
-}
-
-.web19201 .estimatedMonthlyPayment {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.7544729709625244;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(41, 79, 130, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 372.00px;
-    height: 30.00px;
-    left: 232.00px;
-    top: 2791.00px;
-
-}
-
-.web19201 .howManyYearsIsTheLoan {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.7544729709625244;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(41, 79, 130, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 300;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 355.00px;
-    height: 30.00px;
-    left: 236.00px;
-    top: 2571.00px;
-
-}
-
-.web19201 .line11 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 5.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 483.00px;
-    height: 5.00px;
-    left: 172.50px;
-    top: 2834.00px;
-
-}
-
-.web19201 .component619 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 1589.00px;
-    top: 2937.00px;
-
-}
-
-.web19201 .component619 .path1f009790d {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component619 .startNow012f5e81 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: pointer;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 30.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 150.00px;
-    height: 37.00px;
-    left: 12.00px;
-    top: 15.00px;
-
-}
-
-.web19201 .rectangle90 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
       background-color: rgba(54, 84, 124, 1);
       border-bottom-color: rgba(255, 255, 255, 1);
       border-bottom-style: none;
@@ -1932,7 +444,15 @@
       border-top-right-radius: 45.00px;
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 45.00px;
-      box-shadow: none;
+      text-align: center;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 45.00px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      padding-top: 8px;
       width: 775.00px;
     height: 85.00px;
     left: 0.00px;
@@ -1940,1134 +460,176 @@
 
 }
 
-.web19201 .monthlyPaymentsMadeEasy {
+ .opacityBackgroundFour {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 45.00px;
-      font-weight: 300;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 664.00px;
-    height: 55.00px;
-    left: 41.00px;
-    top: 2065.00px;
-
-}
-
-.web19201 .rectangle100 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle100.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
       opacity: 0.4995479881763458;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1025.00px;
     left: -1.00px;
     top: 3175.00px;
-
+}
+.monthlySectionLine{
+border-top:#fff solid 3px;
 }
 
-.web19201 .rectangle101 {
+.blogProfile1{
+  width: 50px;
+    height: 50px;
+    display: block;
+    z-index: 99;
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.6499999761581421;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 208.00px;
-    left: 1248.00px;
-    top: 3831.00px;
-
-}
-
-.web19201 .rectangle103 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.6499999761581421;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 208.00px;
-    left: 169.00px;
-    top: 3831.00px;
-
-}
-
-.web19201 .rectangle102 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 0.6499999761581421;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 1);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 208.00px;
-    left: 708.00px;
-    top: 3831.00px;
-
-}
-
-.web19201 .rectangle104 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("../../assets/landingPage/rectangle104.png");
+    top: 3982px;
+    left: 205px;
+    background-image: url("../../assets/landingPage/ellipse25.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 375.00px;
-    left: 1248.00px;
-    top: 3467.00px;
-
 }
-
-.web19201 .rectangle105 {
+.blogProfile2{
+  width: 50px;
+    height: 50px;
+    display: block;
+    z-index: 99;
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("../../assets/landingPage/rectangle105.png");
+    top: 3982px;
+    left: 744px;
+    background-image: url("../../assets/landingPage/ellipse24.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 375.00px;
-    left: 708.00px;
-    top: 3467.00px;
-
 }
-
-.web19201 .rectangle106 {
+.blogProfile3{
+  width: 50px;
+    height: 50px;
+    display: block;
+    z-index: 99;
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      background-image: url("../../assets/landingPage/rectangle106.png");
+    top: 3982px;
+    left: 1275px;
+    background-image: url("../../assets/landingPage/ellipse23.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
-      width: 512.00px;
-    height: 375.00px;
+}
+
+ .rectangle106 {
+    position: absolute;
+    background-image: url("../../assets/landingPage/rectangle106.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 512.00px;
+    height: 375.00px ;
     left: 169.00px;
     top: 3467.00px;
-
+}
+ .rectangle103 {
+  position: absolute;
+  opacity: 0.6499999761581421;
+  background-color: rgba(255, 255, 255, 1);
+  width: 512.00px;
+  height: 208.00px;
+  left: 169.00px;
+  top: 3831.00px;
+}
+ .rectangle105 {
+  position: absolute;
+  background-image: url("../../assets/landingPage/rectangle105.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 512.00px;
+  height: 375.00px;
+  left: 708.00px;
+  top: 3467.00px;
 }
 
-.web19201 .component620 {
+.rectangle102 {
+  position: absolute;
+    opacity: 0.6499999761581421;
+    background-color: rgba(255, 255, 255, 1);
+    width: 512.00px;
+  height: 208.00px;
+  left: 708.00px;
+  top: 3831.00px;
+}
+.rectangle104 {
+  position: absolute;
+    background-image: url("../../assets/landingPage/rectangle104.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 512.00px;
+  height: 375.00px;
+  left: 1248.00px;
+  top: 3467.00px;
+}
+.rectangle101 {
+  position: absolute;
+    opacity: 0.6499999761581421;
+    background-color: rgba(255, 255, 255, 1);
+    width: 512.00px;
+  height: 208.00px;
+  left: 1248.00px;
+  top: 3831.00px;
+}
 
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 169.00px;
+.ceo{
+  position: absolute;
+  left: 169.00px;
+  top: 3320.00px;
+}
+.holiday{
+  position: absolute;
+  left: 359.00px;
+  top: 3320.00px;
+}
+.market{
+  position: absolute;
+  left: 549.00px;
+  top: 3320.00px;
+}
+.realEstate{
+  position: absolute;
+  left: 739.00px;
+  top: 3320.00px;
+}
+.resources{
+  position: absolute;
+  left: 929.00px;
+  top: 3320.00px;
+}
+.spotLight{
+  position: absolute;
+  left: 1119.00px;
     top: 3320.00px;
-
 }
-
-.web19201 .component620 .path1eae9680b {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component620 .fromCeo {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 128.00px;
-    height: 30.00px;
-    left: 23.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .component621 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 359.00px;
+.technology{
+  position: absolute;
+  left: 1309.00px;
     top: 3320.00px;
-
 }
 
-.web19201 .component621 .path1b238e024 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
+.blogTitle1{
+  position: absolute;
+  left: 201.00px;
+  top: 3850.50px;
 }
-
-.web19201 .component621 .holiday {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 94.00px;
-    height: 30.00px;
-    left: 40.00px;
-    top: 20.00px;
-
+.blogTitle2{
+  position: absolute;
+  left: 740.00px;
+    top: 3850.50px;
 }
-
-.web19201 .component622 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 549.00px;
-    top: 3320.00px;
-
+.blogTitle3{
+  position: absolute;
+  left: 1270.00px;
+    top: 3850.50px;
 }
-
-.web19201 .component622 .path191e135b0 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component622 .market {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 86.00px;
-    height: 30.00px;
-    left: 44.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .component623 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 739.00px;
-    top: 3320.00px;
-
-}
-
-.web19201 .component623 .path11fb01002 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component623 .realEstate {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 140.00px;
-    height: 30.00px;
-    left: 17.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .component624 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 929.00px;
-    top: 3320.00px;
-
-}
-
-.web19201 .component624 .path164d77394 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component624 .resources {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 126.00px;
-    height: 30.00px;
-    left: 24.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .component625 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 1119.00px;
-    top: 3320.00px;
-
-}
-
-.web19201 .component625 .path1bb7d2e1c {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component625 .spotlight {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 116.00px;
-    height: 30.00px;
-    left: 29.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .component626 {
-
-      display: block;
-      position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 1309.00px;
-    top: 3320.00px;
-
-}
-
-.web19201 .component626 .path189720d44 {
-    position: absolute;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
-.web19201 .component626 .technology {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: center;
-      letter-spacing: 0.00px;
-      color: rgba(255, 255, 255, 1);
-      -webkit-text-stroke: 1.00px rgba(112, 112, 112, 1);
-      font-size: 25.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 143.00px;
-    height: 30.00px;
-    left: 16.00px;
-    top: 20.00px;
-
-}
-
-.web19201 .line13 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 3.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 1591.00px;
-    height: 3.00px;
-    left: 168.50px;
-    top: 3425.00px;
-
-}
-
-.web19201 .commonMortgageTermsExplained {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
+.blogTitle1, .blogTitle2, .blogTitle3 {
       text-align: left;
       line-height: 28.00px;
       letter-spacing: 0.00px;
@@ -3077,434 +639,53 @@
       font-weight: 700;
     font-style: normal;
       font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
       width: 455.00px;
     height: 39.00px;
-    left: 1270.00px;
-    top: 3850.50px;
-
 }
-
-.web19201 .theSpringMarketHasSprung {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      line-height: 28.00px;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      width: 455.00px;
-    height: 39.00px;
-    left: 740.00px;
-    top: 3850.50px;
-
+.authorDate1{
+  position: absolute;
+  left: 276.00px;
+    top: 3981px;
 }
-
-.web19201 .theRoaring20sMoneyMachine {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      line-height: 28.00px;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 25.00px;
-      font-weight: 700;
-    font-style: normal;
-      font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      width: 455.00px;
-    height: 39.00px;
-    left: 201.00px;
-    top: 3850.50px;
-
+.authorDate2{
+  position: absolute;
+  left: 815.00px;
+  top: 3981px;
 }
-
-.web19201 .ellipse23 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: rgba(255, 255, 255, 0);
-      box-shadow: none;
-      width: 61.00px;
-    height: 61.00px;
-    left: 1270.00px;
-    top: 3966.00px;
-
+.authorDate3{
+  position: absolute;
+  left: 1345.00px;
+  top: 3981px;
 }
-
-.web19201 .ellipse24 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: rgba(255, 255, 255, 0);
-      box-shadow: none;
-      width: 61.00px;
-    height: 61.00px;
-    left: 740.00px;
-    top: 3966.00px;
-
+.blogtext1 {
+  position: absolute;
+  left: 201.00px;
+  top: 3883.00px;
 }
-
-.web19201 .ellipse25 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: rgba(255, 255, 255, 0);
-      box-shadow: none;
-      width: 61.00px;
-    height: 61.00px;
-    left: 201.00px;
-    top: 3966.00px;
-
+.blogtext2 {
+  position: absolute;
+  left: 740.00px;
+    top: 3883.00px;
 }
-
-.web19201 .authorapril192019 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(112, 112, 112, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      width: 131.00px;
-    height: 49.00px;
-    left: 1345.00px;
-    top: 3972.00px;
-
+.blogtext3 {
+  position: absolute;
+  left: 1270.00px;
+  top: 3883.00px;
 }
-
-.web19201 .authorapril242018 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(112, 112, 112, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      width: 131.00px;
-    height: 49.00px;
-    left: 815.00px;
-    top: 3972.00px;
-
-}
-
-.web19201 .authorjanuary102020 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(112, 112, 112, 1);
-      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 20.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: 'Helvetica Neue', Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      width: 193.00px;
-    height: 49.00px;
-    left: 276.00px;
-    top: 3972.00px;
-
-}
-
-.web19201 .loremIpsumDolorSitAmetConseteturSadipscingElitrSedDiamNonumyEirmodTemporInviduntUtLaboreEtDoloreMagnaAliquyamEratSedDiamVoluptuaAtVeroEosEtAccusamEtJustoDuoDoloresEtEaRebumStetClitaKasdGubergrenNoSeaTakimata44f534eb {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
+ .blogtext1, .blogtext2, .blogtext3 {
       text-align: left;
       letter-spacing: 0.00px;
       color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: unset;
       font-size: 15.00px;
       font-weight: 400;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: auto;
-      overflow-y: auto;
       width: 480.00px;
     height: 77.00px;
-    left: 1270.00px;
-    top: 3883.00px;
-
 }
 
-.web19201 .loremIpsumDolorSitAmetConseteturSadipscingElitrSedDiamNonumyEirmodTemporInviduntUtLaboreEtDoloreMagnaAliquyamEratSedDiamVoluptuaAtVeroEosEtAccusamEtJustoDuoDoloresEtEaRebumStetClitaKasdGubergrenNoSeaTakimata1cc9e289 {
+.blogHeader {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: unset;
-      font-size: 15.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: auto;
-      overflow-y: auto;
-      width: 480.00px;
-    height: 77.00px;
-    left: 740.00px;
-    top: 3883.00px;
-
-}
-
-.web19201 .loremIpsumDolorSitAmetConseteturSadipscingElitrSedDiamNonumyEirmodTemporInviduntUtLaboreEtDoloreMagnaAliquyamEratSedDiamVoluptuaAtVeroEosEtAccusamEtJustoDuoDoloresEtEaRebumStetClitaKasdGubergrenNoSeaTakimata {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      text-align: left;
-      letter-spacing: 0.00px;
-      color: rgba(54, 84, 124, 1);
-      -webkit-text-stroke: unset;
-      font-size: 15.00px;
-      font-weight: 400;
-    font-style: normal;
-      font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: auto;
-      overflow-y: auto;
-      width: 480.00px;
-    height: 77.00px;
-    left: 201.00px;
-    top: 3883.00px;
-
-}
-
-.web19201 .rectangle96 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
       background-color: rgba(54, 84, 124, 1);
       border-bottom-color: rgba(255, 255, 255, 1);
       border-bottom-style: none;
@@ -3522,34 +703,6 @@
       border-top-right-radius: 45.00px;
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 45.00px;
-      box-shadow: none;
-      width: 630.00px;
-    height: 85.00px;
-    left: 1.00px;
-    top: 3119.00px;
-
-}
-
-.web19201 .aFreshLookAtYourHome {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: center;
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
@@ -3558,134 +711,41 @@
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 572.00px;
-    height: 55.00px;
-    left: 16.00px;
-    top: 3134.00px;
-
+      padding-top: 8px;
+      width: 630.00px;
+    height: 85.00px;
+    left: 1.00px;
+    top: 3119.00px;
 }
 
-.web19201 .rectangle110 {
+.homebackgroundFive {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle110.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
       width: 1920.00px;
     height: 1025.00px;
     left: -3.00px;
     top: 4215.00px;
-
 }
 
-.web19201 .rectangle113 {
+ .opacityBackgroundFive {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
       background-image: url("../../assets/landingPage/rectangle113.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-      opacity: 0.4995479881763458;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
-      border-bottom-color: rgba(112, 112, 112, 1);
-      border-bottom-style: none;
-      border-bottom-width: 1.00px;
-      border-left-color: rgba(112, 112, 112, 1);
-      border-left-style: none;
-      border-left-width: 1.00px;
-      border-right-color: rgba(112, 112, 112, 1);
-      border-right-style: none;
-      border-right-width: 1.00px;
-      border-top-color: rgba(112, 112, 112, 1);
-      border-top-style: none;
-      border-top-width: 1.00px;
-      border-top-left-radius: 0.00px;
-      border-top-right-radius: 0.00px;
-      border-bottom-left-radius: 0.00px;
-      border-bottom-right-radius: 0.00px;
-      box-shadow: none;
+      opacity: 0.6;
       width: 1920.00px;
-    height: 880.00px;
-    left: -3.00px;
-    top: 4215.00px;
+      height: 896px;
+      left: -3.00px;
+      top: 4213px;
 
 }
 
-.web19201 .foundThePerfectHomeOrInTheHomeYouLove {
+.h4Title {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
@@ -3694,86 +754,10 @@
       font-weight: 700;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
       width: 634.00px;
     height: 122.00px;
     left: 167.00px;
     top: 4945.00px;
-
-}
-
-.web19201 .foundThePerfectHomeOrInTheHomeYouLove .foundThePerfectHomeOrInTheHomeYouLove-0 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .foundThePerfectHomeOrInTheHomeYouLove .foundThePerfectHomeOrInTheHomeYouLove-10 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .foundThePerfectHomeOrInTheHomeYouLove .foundThePerfectHomeOrInTheHomeYouLove-17 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .foundThePerfectHomeOrInTheHomeYouLove .foundThePerfectHomeOrInTheHomeYouLove-43 {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50.00px;
-    font-family: Montserrat, Arial;
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-.web19201 .line15 {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 3.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 1591.00px;
-    height: 3.00px;
-    left: 166.50px;
-    top: 4910.00px;
-
 }
 
 .web19201 .component627 {
@@ -4147,36 +1131,8 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.web19201 .rectangle107 {
+.reviewHeader {
     position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
       background-color: rgba(54, 84, 124, 1);
       border-bottom-color: rgba(255, 255, 255, 1);
       border-bottom-style: none;
@@ -4194,34 +1150,6 @@
       border-top-right-radius: 45.00px;
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 45.00px;
-      box-shadow: none;
-      width: 596.00px;
-    height: 85.00px;
-    left: -1.00px;
-    top: 4157.00px;
-
-}
-
-.web19201 .whatPeopleAreSaying {
-    position: absolute;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      background-color: rgba(255, 255, 255, 0);
       text-align: left;
       letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
@@ -4230,15 +1158,9 @@
       font-weight: 300;
     font-style: normal;
       font-family: Montserrat, Arial;
-      text-decoration: none;
-      box-shadow: none;
-      overflow-x: unset;
-      overflow-y: unset;
-      white-space: pre;
-      width: 521.00px;
-    height: 55.00px;
-    left: 34.00px;
-    top: 4172.00px;
-
+      padding-top: 8px;
+      width: 596.00px;
+    height: 85.00px;
+    left: -1.00px;
+    top: 4157.00px;
 }
-

@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
 import Footer2 from './Footer2';
 import "./css/contact.css";
-import { Col, Container, Row } from "react-bootstrap";
 
 
 class Contact extends React.Component {
@@ -30,7 +29,7 @@ class Contact extends React.Component {
     
     return (
       
-<Container>
+<div>
     <Header></Header> 
           <div className="backgroundLayer"></div>
           <div className="opacityLayer"></div>
@@ -57,7 +56,7 @@ class Contact extends React.Component {
 </div>
 </div>
         <Footer2></Footer2> 
-          </Container>
+          </div>
     );
   }
 }
