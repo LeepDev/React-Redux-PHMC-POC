@@ -5,7 +5,7 @@ import { Progress, Grid, Box, Stack, RadioGroup,
      Radio, GridItem, Text, Button, Input, Form } from '@chakra-ui/react'
 
 
-function BuyTest2(props) {
+function RefiTest2(props) {
         const { register, watch, control } = useForm();
         const test = watch("test");
         const { prev, submit } = props;
@@ -25,7 +25,7 @@ function BuyTest2(props) {
                                 gap={4}>
                                     {/* first group */}
                                     <GridItem rowStart={1}>
-                                        <Text fontSize="3xl">What is the address of your next purchase?</Text>
+                                        <Text fontSize="3xl">What is the address of your refinance?</Text>
                                         <Input mt={5} bg="white" textColor="black" placeholder="Street Address"></Input>                        
                                         <Input mt={5} bg="white" textColor="black" placeholder="Unit/Condo (optional)"></Input>                        
                                         <Input mt={5} bg="white" textColor="black" placeholder="State"></Input>                        
@@ -55,4 +55,4 @@ function BuyTest2(props) {
         );
 }
 
-export default BuyTest2
+export default RefiTest2

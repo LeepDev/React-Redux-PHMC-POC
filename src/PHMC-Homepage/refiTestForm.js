@@ -1,10 +1,9 @@
 import React from "react";
 
-import BuyTest1 from "./buyTestStep1";
-import BuyTest2 from "./buyTestStep2";
-import BuyTest3 from "./buyTestStep3";
+import RefiTest1 from "./refiTestStep1";
+import RefiTest2 from "./refiTestStep2";
 
-class BuyForm extends React.Component {
+class RefiForm extends React.Component {
   
   constructor(props) {
     super(props);
@@ -53,18 +52,14 @@ handleSubmit = (event) => {
     switch(currentStep) {
       case 1:
         return (
-          <BuyTest1 handleChange={this.handleChange} next={this.next} submit={this.handleSubmit} />
-        )
-      case 3:
-        return (
-          <BuyTest3 handleChange={this.handleChange} next={this.next} prev={this.prev} />
+          <RefiTest1 handleChange={this.handleChange} next={this.next} submit={this.handleSubmit} />
         )
       case 2:
         return (
-          <BuyTest2 handleChange={this.handleChange} prev={this.prev} submit={this.handleSubmit} />
+          <RefiTest2 handleChange={this.handleChange} prev={this.prev} submit={this.handleSubmit} />
         )
     }
   }
 }
 
-export default BuyForm;
+export default RefiForm;

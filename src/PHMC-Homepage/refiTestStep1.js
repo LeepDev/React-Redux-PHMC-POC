@@ -70,8 +70,8 @@ import { Progress, Grid, Box, Stack, RadioGroup,
         );
     }
     
-    function BuyTest1(props) {
-        const { next, submit } = props;
+    function RefiTest1(props) {
+        const { next } = props;
         const [ selected, setSelected ]  = useState("zero");
         const [ selected2, setSelected2 ]  = useState("zero");
         const [ selected3, setSelected3 ]  = useState("zero");
@@ -171,7 +171,7 @@ import { Progress, Grid, Box, Stack, RadioGroup,
                                     <Input bg="white" textColor="black" placeholder="Please type in the location here..."></Input>                        
                                 </Stack>
 
-                                <Button onClick={submit}>Submit</Button>   
+                                <Button onClick={next}>Next</Button>                  
                             </Stack>
                             </MotionBox>
                             
@@ -182,4 +182,4 @@ import { Progress, Grid, Box, Stack, RadioGroup,
         );
 }
 
-export default BuyTest1
+export default RefiTest1
