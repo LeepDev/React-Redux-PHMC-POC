@@ -17,11 +17,13 @@ import "./css/landingPage.css";
 
 function LandingPage(props) {
   const { scrollY } = useViewportScroll();
- 
-  const y1 = useTransform(scrollY, [0, 300], [0, 200]);
-  const y2 = useTransform(scrollY, [0, 300], [0, -100]);
-  
-  const [ref, inView, entry] = useInView({
+  const y1 = useTransform(scrollY, [0, 9000], [0, 9000]);
+  const y2 = useTransform(scrollY, [0, 7500], [0, 6000]);
+  const y3 = useTransform(scrollY, [0, 4500], [0, 4000]);
+  const y4 = useTransform(scrollY, [0, 4000], [0, 4000]);
+  const y5 = useTransform(scrollY, [0, 4000], [0, 4000]);
+
+  const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: false
   });
@@ -37,24 +39,22 @@ function LandingPage(props) {
 
     return (
         <div className="web19201">
+                  <Header></Header>
 
         {/* Section home */}
-        <div className="homeSection" >
+        <motion.div className="homeSection" 
+        style={{ y: y1, x: 0 }}  >
         <div className="homebackgroundOne"></div>
         <div className="opacityBackgroundOne"></div>
         <div className="freedomToChooseTheHomeYouLove"><span className="h2Bold">Freedom</span><span className="h2Normal"> to choose the </span><span className="h2Bold">Home</span><span className="h2Normal"> you love</span></div>
         <div className="withALenderWhoCares"><span className="h2Normal">with a lender who </span><span className="h2Bold">Cares</span></div>
-        <Header></Header>
         <Button  className="buy">Buy</Button>
         <Button className="refinance">Refi</Button>
-        </div>
+        </motion.div>
         {/* Section who we are */}
 
         <motion.div className="aboutUsSection" 
-        animate={inView ? 'visible' : 'hidden'} 
-        variants={variants} 
-        transition={{ duration: 2, ease: 'easeOut' }} 
-        ref={ref} >
+        style={{ y: y2, x: 0 }} >
         <div className="homebackgroundTwo"></div>
         <div className="opacityBackgroundTwo"></div>
         <div className="whoHeader">Who We Are</div>
@@ -64,10 +64,11 @@ function LandingPage(props) {
         <div className="h3Title"><span className="h2Normal">What makes us </span><span className="h2Bold">Different</span></div>
         <div className="p2Bottom">Working with a direct lender, like Platinum, can help you achieve your homeownership goals in a much smoother, simpler process</div>
         <Button className="startNow">Start Now</Button>
-        </motion.div >
+        </motion.div>
 
-        {/* Section monthly payment 
-        <div className="calculatorSection">
+        {/* Section monthly payment */}
+        <motion.div className="calculatorSection"
+        style={{ y: y3, x: 0 }}  >
         <div data-layer="7b1a967c-f8eb-41e3-a183-1d00ab4e630a" className="homebackgroundThree"></div>
         <div data-layer="ec5bc445-350b-46b5-b4df-238fd0868695" className="opacityBackgroundThree"></div>
         <div className="calculatorHeader">Monthly Payments Made Easy</div>
@@ -81,15 +82,16 @@ function LandingPage(props) {
                 <Form.Control type="number" placeholder="Estimated monthly payment" className="monthlyPayment"/>
             </Form.Group>
         </Form>
-        <div className="monthlySectionLine">
+        <div className="">
         <div className="getAPreapproaval">Get a Preapproaval</div>
         <div className="preapprovalText">A preapproval can give you the exact amount you can afford at no obligation or cost to you.</div>
         <Button className="startNow2">Start Now</Button>
         </div>
-        </div>*/}
+        </motion.div>
 
-        {/* Section fresh look at your home 
-        <div className="blogSection">
+        {/* Section fresh look at your home */}
+        <motion.div className="blogSection"
+        style={{ y: y4, x: 0 }} >
         <div data-layer="7c4b1248-f8d6-467d-a449-f1f8e1716956" className="homebackgroundFour"></div>
         <div data-layer="008d7c41-0aa6-4683-8a28-3f047c3df5be" className="opacityBackgroundFour"></div>
         <div className="blogHeader">A fresh look at your home</div>
@@ -120,9 +122,10 @@ function LandingPage(props) {
         <div className="blogtext1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
         <div className="blogtext2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
         <div className="blogtext3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.</div>
-        </div>*/}
-{/* Section WHAT PEOPLE are saying 
-        <div className="reviewSection">
+        </motion.div>
+{/* Section WHAT PEOPLE are saying */}
+        <motion.div className="reviewSection"
+        style={{ y: y5, x: 0 }} >
         <div data-layer="1ed34e77-c88a-4d34-8df2-22fc982ccdb4" className="homebackgroundFive"></div>
         <div data-layer="ffa322ed-cc8c-4119-acdc-7a7ee16b702e" className="opacityBackgroundFive"></div>
         <div className="reviewHeader">What people are saying</div>
@@ -137,7 +140,7 @@ function LandingPage(props) {
             <svg data-layer="a69921c3-def7-41c1-94e8-0cf6412ddbe7" preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse18"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
             <svg data-layer="bcc5a91e-9a7e-4c4b-a5c6-cbbd3647b5b1" preserveAspectRatio="none" viewBox="-0.75 -0.75 19.5 18.5" className="ellipse19"><path d="M 9 0 C 13.97056198120117 0 18 3.805579662322998 18 8.5 C 18 13.19441986083984 13.97056198120117 17 9 17 C 4.02943754196167 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 4.02943754196167 0 9 0 Z"  /></svg>
         </div>
-        </div>*/}
+        </motion.div>
 <Footer2></Footer2> 
         
 </div>

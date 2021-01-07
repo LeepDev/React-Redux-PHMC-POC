@@ -19,7 +19,7 @@ a:hover{
     height: 150px;
     padding-top: 25px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
 }
 .rowTwo{
   display: flex;
