@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -11,28 +12,29 @@ import {
     useTransform,
     useMotionValue
   } from 'framer-motion';
-  import { useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import "./css/landingPage.css";
 
-function motion(props) {
-    const { scrollY } = useViewportScroll();
+function LandingPage(props) {
+  const { scrollY } = useViewportScroll();
  
-    const [ref, inView, entry] = useInView({
-      threshold: 0.5,
-      triggerOnce: false
-    });
+  const y1 = useTransform(scrollY, [0, 300], [0, 200]);
+  const y2 = useTransform(scrollY, [0, 300], [0, -100]);
   
-    const variants = {
-      visible: { opacity: 1, scale: 1, y: 0 },
-      hidden: {
-        opacity: 0,
-        scale: 0.65,
-        y: 50
-      }
-    };
-  
-  render() {
-    
+  const [ref, inView, entry] = useInView({
+    threshold: 0.5,
+    triggerOnce: false
+  });
+
+  const variants = {
+    visible: { opacity: 1, scale: 1, y: 0 },
+    hidden: {
+      opacity: 0,
+      scale: 0.65,
+      y: 50
+    }
+  };
+
     return (
         <div className="web19201">
 
@@ -141,7 +143,6 @@ function motion(props) {
 </div>
     );
   }
-}
 
 
 export default LandingPage;
