@@ -5,6 +5,8 @@ import Header from './CHeader';
 import Footer from './CFooter';
 import "./css/contact.css";
 
+import { Progress, Image, Box, Flex, Stack, RadioGroup,
+  Radio, GridItem, Text, Center } from '@chakra-ui/react'
 
 class Contact extends React.Component {
 
@@ -30,9 +32,19 @@ class Contact extends React.Component {
     return (
       
 <div>
-    <Header></Header> 
-          <div className="backgroundLayer"></div>
-          <div className="opacityLayer"></div>
+      <Box backgroundImage="url('/assets/contact/rectangle4.png')"
+      bgPosition="top"
+      bgRepeat="no-repeat"
+      bgSize="cover">        
+        <Header></Header>
+        <Box backgroundImage="url('/assets/contact/rectangle3.png')"
+        bgPosition="top"
+        bgRepeat="no-repeat"
+        bgSize="cover"
+        pb={120}
+        >
+          {/* <div className="backgroundLayer"></div>
+          <div className="opacityLayer"></div> */}
 
           <div className="contactUs">Contact Us</div>
   
@@ -55,8 +67,9 @@ class Contact extends React.Component {
 <Button className="chat">Chat</Button>
 </div>
 </div>
-        <Footer mt={152}></Footer> 
-          </div>
+</Box></Box>
+        <Footer></Footer> 
+    </div>
     );
   }
 }
