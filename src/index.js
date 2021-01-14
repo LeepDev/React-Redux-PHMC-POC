@@ -47,6 +47,7 @@ ReactDOM.render((
           <Route path="/locations" component={Locations} />
           <Route path="/buy" component={Buy} />
           <Route path="/refi" component={Refi} />
+          <Route path="/blog" component={Startnow} />
           <Route path="/startnow" component={Startnow} />
           <Route path="/licensing" component={Licensing} />
           <Route path="/ccpa" component={Ccpa} />

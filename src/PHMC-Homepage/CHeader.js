@@ -33,18 +33,6 @@ const Header = props => {
         </Link>
       </Flex>
 
-      {/* <Box display={{ base: "block", md: "none" }} onClick={handleToggle}>
-        <svg
-          fill="white"
-          width="12px"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-        </svg>
-      </Box> */}
-
       <Box
         display={{ sm: show ? "block" : "none", md: "flex" }}
         width={{ sm: "full", md: "auto" }}
@@ -58,6 +46,15 @@ const Header = props => {
         display={{ sm: show ? "block" : "none", md: "block" }}
         mt={{ base: 4, md: 0 }}
       >
+        <Link to="/buy" className="buyC">
+            Buy
+        </Link>
+        <Link to="/refi" className="refiC">
+            Refi
+        </Link>
+        <Link to="/blog" className="blogC">
+            Blog
+        </Link>
         <Link to="/contact" className="contactC">
             Contact
         </Link>
