@@ -1,0 +1,921 @@
+ html {
+        height: 100%;
+        width: 100%;
+        
+      }
+
+      body {
+        font-family: 'Open Sans', serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        -webkit-font-smoothing: antialiased;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+       
+      }
+      .container {
+        -webkit-align-items: center;
+        align-items:flex-start;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 15px;
+        position: relative;
+        width: 100%;
+    }
+      .container--full {
+        height: 75vh;
+    }
+    .container--big {
+      height: 75vh;
+  }
+    .container--small {
+      height: 65vh;
+  }
+      .parallax__container {
+        clip: rect(0, auto, auto, 0);
+        height: 100%;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -100;
+      }
+      .parallax {
+        /* can be put in a seperate class for better control */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* --------------------------- */
+        position: fixed;
+        top: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        width: 100%;
+      }
+      .bg1{
+      background-image: url("../../assets/landingPage/rectangle81.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      }
+      .bg2{
+        background-image: url("../../assets/landingPage/rectangle88.png"); 
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: cover; 
+        height: 100%;
+        top: 0;
+      }
+      .bg3 {
+          background-image: url("../../assets/landingPage/rectangle91.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .bg4{
+      background-image: url("../../assets/landingPage/rectangle108.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .bg5 {
+        background-image: url("../../assets/landingPage/rectangle110.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+  }
+
+      .content {
+        margin: 0 auto;
+        padding: 30px 35px;
+        text-align: center;
+        position:relative;
+    }
+    .content2{
+      width:100%;
+      padding:30px 65px;
+      position:relative;
+    }
+    .flexWrapRight{
+      display:flex;
+      justify-content: flex-end;
+      border-bottom: solid #fff 3px;
+    }
+    .flexWrapLeft{
+      display:flex;
+      justify-content: flex-start;
+      border-bottom: solid #fff 3px;
+    }
+    .flexWrapEven{
+      display:flex;
+      justify-content: space-between;
+      
+    }
+
+.opacityBackgroundOne {
+  z-index: 99;
+      background-image: url("../../assets/landingPage/rectangle82.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+      width: 100%;
+    height: 100%;
+}
+
+.freedomToChooseTheHomeYouLove {
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 76.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Montserrat, Arial;
+  border-top: #fff solid 3px;
+  width: auto;
+  height: auto;
+  margin: 400px auto 0;
+  display: block;
+}
+
+ .calculate{
+  display: block;
+  background-color: transparent;
+  width: 175.00px;
+height: 66.00px;  
+border: #36547c solid 3px;
+      box-sizing: content-box;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      color: rgba(54, 84, 124, 1);
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      transition-duration: 0.5s;
+}
+ .calculate:hover {
+  transition-duration: 0.5s;
+  color: rgb(255, 255, 255);
+  background-color:  rgba(54, 84, 124, 1);
+}
+.buy {
+  position: relative;
+  left: 36%;
+  top: 145px;
+}
+.refinance {
+  position: relative;
+  left: 58%;
+  top: 75px;
+}
+.calculate {
+  position: relative;
+left: 150px;
+top: 0px;
+}
+.startNow3{
+  position:absolute;
+  left: 1583.00px;
+  top: 4756px;
+}
+.startNow2{
+  left: 0px;
+  top: 20px;
+}
+.startNow {
+    letter-spacing: 0.00px;
+    text-decoration: none;
+  top:20px;
+  left:0;
+}
+
+.startNow:hover, .startNow2:hover, .startNow3:hover, .ceo:hover, .holiday:hover, .market:hover, .realEstate:hover, .resources:hover, .spotLight:hover, .technology:hover, .buy:hover, .refinance:hover  {
+  transition-duration: 0.5s;
+  color: rgb(54, 84, 124, 1);
+  background-color:  rgba(255, 255, 255);
+}
+ .startNow, .startNow2, .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology, .buy, .refinance  {
+  display: block;
+  background-color: transparent;  
+  border: #fff solid 3px;
+    position: relative;
+      box-sizing: content-box;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      transition-duration: 0.5s;
+      width: 175.00px;
+      height: 66.00px;
+}
+.homeSection{
+  display:grid;
+}
+.aboutUsSection{
+display:grid;
+}
+.calculatorSection{
+  display:flex;
+}
+.blogSection{
+  display:flex;
+}
+.reviewSection{
+  display:flex;
+}
+
+ .opacityBackgroundTwo {
+      z-index: 99;
+      background-image: url("../../assets/landingPage/rectangle89.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+}
+
+.h2Title {
+    position: relative;
+    margin-bottom: 25px;
+      letter-spacing: 0px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 55px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 870px;
+    height: 67px;
+    left:0;
+    top:0;
+}
+
+.h2Normal {
+    font-weight: 400;
+}
+
+.h2Bold {
+    font-weight: 900;
+}
+
+.h3Title {
+    position: relative;
+    margin-bottom:25px;
+    color: rgba(255, 255, 255, 1);
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      font-size: 55px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 692px;
+    height: 67px;
+    left: 0px;
+    top: 0;
+}
+.p2Top {
+    position: relative;
+    margin-bottom: 40px;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      font-size: 25px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 873px;
+    height: 132px;
+    left:0;
+    top: 0;
+
+}
+.p2Bottom {
+    position: relative;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      font-size: 25px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 717px;
+    height: 132px;
+    left: 0px;
+    top: 0;
+}
+
+.line10 {
+    position: relative;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 3px;
+    stroke-linecap: butt;
+    width: 200%;
+    height: 3px;
+    left: 169.50px;
+    margin: 30px 0 0px;
+    top: 0px;
+}
+
+.opacityBackgroundThree {
+  position:relative;
+    z-index:99;
+      background-image: url("../../assets/landingPage/rectangle92.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      top:0;
+}
+form{
+  width: 200px;
+  height: 100%;
+  display: block;
+}
+.loanAmount {
+  position: relative;
+  margin:30px 0 15px;
+  left: 0px;
+    top: 0px;
+}
+.interestRate {
+  position: relative;
+  margin:15px 0;
+  left: 0px;
+  top: 0px;
+}
+.loanTime {
+  position: relative;
+  margin:15px 0 30px;
+  left: 0px;
+    top: 0px;
+}
+    .loanAmount, .interestRate, .loanTime {
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: rgba(54, 85, 124, 1) solid 2px;
+    -webkit-filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.1607843137254902));
+    width: 483.00px;
+    height: 69.00px;
+    text-align: center;
+    color: rgba(41, 79, 130, 1);
+    font-size: 25.00px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+}
+
+.getAPreapproaval {
+    position: relative;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      font-size: 50.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 476px;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+}
+
+.quickLookAtYourMonthlyPayments {
+    position: relative;
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      font-size: 45.00px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      text-decoration: none;
+      width: auto;
+    height: 55.00px;
+    left: 0px;
+    top: 0px;
+}
+
+.preapprovalText {
+    position: relative;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      font-size: 25px;
+      font-weight: 300;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      text-decoration: none;
+      width: 619px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+.monthlyPayment {
+  position: relative;
+  margin:30px 0;
+  border-bottom: #fff solid 6px;
+  background-color: transparent;
+  text-align: center;
+  color: rgba(41, 79, 130, 1);
+  font-size: 25.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Montserrat, Arial;
+  width: 481px;
+  height: 49px;
+  padding-bottom: 13px;
+  left: 0px;
+  top: 0px;
+}
+
+.calculatorHeader, .blogHeader, .reviewHeader, .whoHeader {
+    position: relative;
+      background-color: rgba(54, 84, 124, 1);
+      border-top-width: 5px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 45px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 45px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      font-size: 45px;
+      font-weight: 300;
+      font-family: Montserrat, Arial;
+      padding-top: 8px;
+}
+
+.whoHeader {
+  width: 379px;
+  height: 85px;
+  top: -50px;
+  left: -20px;
+}
+.calculatorHeader{
+  width: 775px;
+  height: 85px;
+  left: -20px;
+  top: -56px;
+}
+.blogHeader {
+    width: 630px;
+  height: 85px;
+  top: -50px;
+  left: -15px;
+}
+.reviewHeader {
+  width: 596px;
+height: 85px;
+left: -15px;
+top: -50px;
+}
+
+
+.monthlySectionLine{
+border-top:#fff solid 3px;
+}
+
+.blogProfile1{
+    background-image: url("../../assets/landingPage/ellipse25.png");
+}
+.blogProfile2{
+    background-image: url("../../assets/landingPage/ellipse24.png");
+}
+.blogProfile3{
+  background-image: url("../../assets/landingPage/ellipse23.png");
+}
+
+.blogProfile3, .blogProfile2, .blogProfile1{
+  width: 50px;
+    height: 50px;
+    margin:20px 15px 0 0; 
+    display: block;
+    z-index: 99;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .rectangle106 {
+    position: relative;
+    background-image: url("../../assets/landingPage/rectangle106.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 512.00px;
+    height: 375.00px ;
+    left: 0px;
+    top: 0px;
+    margin-top:45px;
+}
+ .rectangle103 {
+  position: relative;
+  opacity: 0.6499999761581421;
+  background-color: rgba(255, 255, 255, 1);
+  width: 512.00px;
+  height: 208.00px;
+  padding:10px 30px;
+  left: 0px;
+  top: 0px;
+}
+ .rectangle105 {
+  position: relative;
+  background-image: url("../../assets/landingPage/rectangle105.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 512.00px;
+  height: 375.00px;
+  left: 0px;
+  top: 0px;
+  margin-top:45px;
+}
+
+.rectangle102 {
+  position: relative;
+    opacity: 0.6499999761581421;
+    background-color: rgba(255, 255, 255, 1);
+    width: 512.00px;
+  height: 208.00px;
+  left: 0px;
+  top: 0px;
+}
+.rectangle104 {
+  position: relative;
+    background-image: url("../../assets/landingPage/rectangle104.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 512.00px;
+  height: 375.00px;
+  left: 0px;
+  top: 0px;
+  margin-top:45px;
+}
+.rectangle101 {
+  position: relative;
+    opacity: 0.6499999761581421;
+    background-color: rgba(255, 255, 255, 1);
+    width: 512.00px;
+  height: 208.00px;
+  left: 0px;
+  top: 0px;
+}
+
+.ceo{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.holiday{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.market{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.realEstate{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.resources{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.spotLight{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+.technology{
+  position: relative;
+  margin:0 15px 30px 0;
+  left: 0px;
+  top: 0px;
+}
+
+.blogTitle1{
+  position: relative;
+  left: 201.00px;
+  top: 3850.50px;
+}
+.blogTitle2{
+  position: relative;
+  left: 740.00px;
+    top: 3850.50px;
+}
+.blogTitle3{
+  position: relative;
+  left: 0;
+    top: 0;
+}
+.blogTitle1, .blogTitle2, .blogTitle3 {
+      text-align: left;
+      line-height: 28.00px;
+      letter-spacing: 0.00px;
+      color: rgba(54, 84, 124, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 25.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      width: 455.00px;
+    height: 39.00px;
+}
+.authorDate1{
+  position: relative;
+  left: 276.00px;
+    top: 3981px;
+}
+.authorDate2{
+  position: relative;
+  left: 815.00px;
+  top: 3981px;
+}
+.authorDate3{
+  position: relative;
+  margin:15px 0 0;
+  left: 0px;
+  top: 0px;
+}
+.blogtext1 {
+  position: relative;
+  left: 201.00px;
+  top: 3883.00px;
+}
+.blogtext2 {
+  position: relative;
+  left: 740.00px;
+    top: 3883.00px;
+}
+.blogtext3 {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+ .blogtext1, .blogtext2, .blogtext3 {
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(54, 84, 124, 1);
+      font-size: 15.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 480.00px;
+    height: 77.00px;
+}
+
+
+
+.h4Title {
+    position: relative;
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(255, 255, 255, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 50.00px;
+      font-weight: 700;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 634.00px;
+    height: 122.00px;
+    left: 0px;
+    top: 0px;
+}
+
+.web19201 .component627 {
+
+      display: block;
+      position: relative;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      overflow-x: unset;
+      overflow-y: unset;
+      background-color: transparent;
+      width: 175.00px;
+    height: 66.00px;
+    left: 1583.00px;
+    top: 4945.00px;
+
+}
+
+.web19201 .component627 .path1 {
+    position: relative;
+      box-sizing: border-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      fill: transparent;
+      stroke: rgba(255, 255, 255, 1);
+          stroke-width: 2.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 175.00px;
+    height: 66.00px;
+    left: 0.00px;
+    top: 0.00px;
+
+}
+
+
+.reviewBubble {
+    position: relative;
+      opacity: 0.8500000238418579;
+      cursor: default;
+      background-color: rgba(255, 255, 255, 1);
+      border-top-left-radius: 50.00px;
+      border-top-right-radius: 0.00px;
+      border-bottom-left-radius: 0.00px;
+      border-bottom-right-radius: 50.00px;
+      width: 1065.00px;
+    height: 544.00px;
+    margin-bottom:55px;
+    left: 0px;
+    top: 0px;
+}
+
+ .reviewText {
+    position: relative;
+      opacity: 1;
+      text-align: left;
+      color: rgba(54, 84, 124, 1);
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      width: 901.00px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    padding:25px 45px;
+}
+
+.reviewSelector {
+      display: flex;
+      justify-content:space-evenly;
+      align-items: baseline;
+      position: relative;
+      opacity: 1;
+      background-color: transparent;
+      width: 163.00px;
+    height: 17.00px;
+    margin:0 auto;
+    left: 0px;
+    top: 0px;
+}
+
+.ellipse15 {
+    position: relative;
+      opacity: 1;
+      fill: rgba(54, 84, 124, 1);
+      stroke: rgba(0, 0, 0, 0);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 19.00px;
+    height: 19.00px;
+    left: 0px;
+    top: 0px;
+}
+.ellipse17 {
+    position: relative;
+      opacity: 1;
+      fill: rgba(255, 255, 255, 1);
+      stroke: rgba(0, 0, 0, 0);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      width: 19.00px;
+    height: 19.00px;
+    left: 0px;
+    top: 0px;
+}
+
+.web19201 .group6 .ellipse18 {
+    position: relative;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      fill: rgba(54, 84, 124, 1);
+      stroke: rgba(0, 0, 0, 0);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 19.00px;
+    height: 19.00px;
+    left: 109.00px;
+    top: -1.00px;
+
+}
+
+.web19201 .group6 .ellipse19 {
+    position: relative;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      fill: rgba(54, 84, 124, 1);
+      stroke: rgba(0, 0, 0, 0);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 20.00px;
+    height: 19.00px;
+    left: 144.00px;
+    top: -1.00px;
+
+}
+
