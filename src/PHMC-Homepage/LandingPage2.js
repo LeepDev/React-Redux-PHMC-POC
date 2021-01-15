@@ -10,7 +10,7 @@ import 'universal-parallax/dist/universal-parallax.min.js';
 import { Container } from 'react-bootstrap';
 
 
-class Home2 extends React.Component {
+class LandingPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -193,5 +193,5 @@ class Home2 extends React.Component {
 }
 
 
-export default Home2;
+export default LandingPage;
           

@@ -13,7 +13,6 @@ import { extendTheme } from "@chakra-ui/react"
 // import App from './components/App';
 
 import LandingPage from './PHMC-Homepage/LandingPage';
-import Home2 from './PHMC-Homepage/LandingPage2';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
 import Locations from './PHMC-Homepage/locations';
@@ -41,7 +40,6 @@ ReactDOM.render((
       <ConnectedRouter history={history}>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/home" component={Home2} />
           <Route path="/careers" component={Careers} />
           <Route path="/contact" component={Contact} />
           <Route path="/locations" component={Locations} />
