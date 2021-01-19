@@ -34,7 +34,7 @@
         height: 75vh;
     }
     .container--big {
-      height: 75vh;
+      height: 95vh;
   }
     .container--small {
       height: 65vh;
@@ -63,6 +63,31 @@
         transform-style: preserve-3d;
         width: 100%;
       }
+      .refiBG1{
+        background-image: url("../../assets/refi/rectangle156.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        }
+      .buyBG1{
+        background-image: url("../../assets/buy/rectangle116.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        }
+        .flexWrapAround .startNow{
+          margin-top:275px;
+        }
+        .negativeTopSpace{
+          margin-top:-150px;
+        }
+
       .bg1{
       background-image: url("../../assets/landingPage/rectangle81.png");
       background-position: center;
@@ -70,6 +95,7 @@
       background-size: cover;
       height: 100%;
       width: 100%;
+      z-index: -1;
       }
       .bg2{
         background-image: url("../../assets/landingPage/rectangle88.png"); 
@@ -78,6 +104,7 @@
         background-size: cover; 
         height: 100%;
         top: 0;
+        z-index: -1;
       }
       .bg3 {
           background-image: url("../../assets/landingPage/rectangle91.png");
@@ -86,6 +113,7 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        z-index: -1;
     }
     .bg4{
       background-image: url("../../assets/landingPage/rectangle108.png");
@@ -94,6 +122,7 @@
       background-size: cover;
       width: 100%;
       height: 100%;
+      z-index: -1;
     }
     .bg5 {
         background-image: url("../../assets/landingPage/rectangle110.png");
@@ -102,14 +131,8 @@
         background-size: cover;
         width: 100%;
         height: 100%;
+        z-index: -1;
   }
-
-      .content {
-        margin: 0 auto;
-        padding: 30px 35px;
-        text-align: center;
-        position:relative;
-    }
     .content2{
       width:100%;
       padding:30px 65px;
@@ -128,7 +151,15 @@
     .flexWrapEven{
       display:flex;
       justify-content: space-between;
-      
+    }
+    .flexWrapCenter{
+      display:flex;
+      justify-content: center;
+      align-content:center;
+    }
+    .flexWrapAround{
+      display:flex;
+      justify-content: space-evenly;
     }
 
 .opacityBackgroundOne {
@@ -142,19 +173,21 @@
     height: 100%;
 }
 
-.freedomToChooseTheHomeYouLove {
+.homeTitle1 {
   position: relative;
   text-align: center;
   color: rgba(255, 255, 255, 1);
-  font-size: 76.00px;
+  font-size: 4vw;
   font-weight: 400;
   font-style: normal;
   font-family: Montserrat, Arial;
   border-top: #fff solid 3px;
   width: auto;
   height: auto;
-  margin: 400px auto 0;
+  margin: 0px auto 0;
   display: block;
+  top:19vh;
+  left:0;
 }
 
  .calculate{
@@ -180,14 +213,12 @@ border: #36547c solid 3px;
   background-color:  rgba(54, 84, 124, 1);
 }
 .buy {
-  position: relative;
-  left: 36%;
-  top: 145px;
+  left: 0;
+  top: 30vh;
 }
 .refinance {
-  position: relative;
-  left: 58%;
-  top: 75px;
+  left: 0;
+  top: 30vh;
 }
 .calculate {
   position: relative;
@@ -232,32 +263,6 @@ top: 0px;
       transition-duration: 0.5s;
       width: 175.00px;
       height: 66.00px;
-}
-.homeSection{
-  display:grid;
-}
-.aboutUsSection{
-display:grid;
-}
-.calculatorSection{
-  display:flex;
-}
-.blogSection{
-  display:flex;
-}
-.reviewSection{
-  display:flex;
-}
-
- .opacityBackgroundTwo {
-      z-index: 99;
-      background-image: url("../../assets/landingPage/rectangle89.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 1;
-      width: 100%;
-      height: 100%;
 }
 
 .h2Title {
@@ -340,18 +345,6 @@ display:grid;
     top: 0px;
 }
 
-.opacityBackgroundThree {
-  position:relative;
-    z-index:99;
-      background-image: url("../../assets/landingPage/rectangle92.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 1;
-      width: 100%;
-      height: 100%;
-      top:0;
-}
 form{
   width: 200px;
   height: 100%;
@@ -457,7 +450,6 @@ form{
 .calculatorHeader, .blogHeader, .reviewHeader, .whoHeader {
     position: relative;
       background-color: rgba(54, 84, 124, 1);
-      border-top-width: 5px;
       border-top-left-radius: 0px;
       border-top-right-radius: 45px;
       border-bottom-left-radius: 0px;
@@ -495,7 +487,6 @@ left: -15px;
 top: -50px;
 }
 
-
 .monthlySectionLine{
 border-top:#fff solid 3px;
 }
@@ -513,7 +504,7 @@ border-top:#fff solid 3px;
 .blogProfile3, .blogProfile2, .blogProfile1{
   width: 50px;
     height: 50px;
-    margin:20px 15px 0 0; 
+    margin:92px 15px 10px 0; 
     display: block;
     z-index: 99;
     position: relative;
@@ -523,10 +514,18 @@ border-top:#fff solid 3px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.rectangle106 {
+  background-image: url("../../assets/landingPage/rectangle106.png");
+}
+.rectangle105 {
+  background-image: url("../../assets/landingPage/rectangle105.png")
+}
 
- .rectangle106 {
+.rectangle104 {
+    background-image: url("../../assets/landingPage/rectangle104.png");
+}
+ .rectangle106, .rectangle105, .rectangle104 {
     position: relative;
-    background-image: url("../../assets/landingPage/rectangle106.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -546,50 +545,6 @@ border-top:#fff solid 3px;
   left: 0px;
   top: 0px;
 }
- .rectangle105 {
-  position: relative;
-  background-image: url("../../assets/landingPage/rectangle105.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 512.00px;
-  height: 375.00px;
-  left: 0px;
-  top: 0px;
-  margin-top:45px;
-}
-
-.rectangle102 {
-  position: relative;
-    opacity: 0.6499999761581421;
-    background-color: rgba(255, 255, 255, 1);
-    width: 512.00px;
-  height: 208.00px;
-  left: 0px;
-  top: 0px;
-}
-.rectangle104 {
-  position: relative;
-    background-image: url("../../assets/landingPage/rectangle104.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    width: 512.00px;
-  height: 375.00px;
-  left: 0px;
-  top: 0px;
-  margin-top:45px;
-}
-.rectangle101 {
-  position: relative;
-    opacity: 0.6499999761581421;
-    background-color: rgba(255, 255, 255, 1);
-    width: 512.00px;
-  height: 208.00px;
-  left: 0px;
-  top: 0px;
-}
-
 .ceo{
   position: relative;
   margin:0 15px 30px 0;
@@ -633,22 +588,12 @@ border-top:#fff solid 3px;
   top: 0px;
 }
 
-.blogTitle1{
-  position: relative;
-  left: 201.00px;
-  top: 3850.50px;
-}
-.blogTitle2{
-  position: relative;
-  left: 740.00px;
-    top: 3850.50px;
-}
 .blogTitle3{
   position: relative;
   left: 0;
     top: 0;
 }
-.blogTitle1, .blogTitle2, .blogTitle3 {
+.blogTitle3 {
       text-align: left;
       line-height: 28.00px;
       letter-spacing: 0.00px;
@@ -661,38 +606,18 @@ border-top:#fff solid 3px;
       width: 455.00px;
     height: 39.00px;
 }
-.authorDate1{
-  position: relative;
-  left: 276.00px;
-    top: 3981px;
-}
-.authorDate2{
-  position: relative;
-  left: 815.00px;
-  top: 3981px;
-}
 .authorDate3{
   position: relative;
-  margin:15px 0 0;
+  margin:95px 0 0;
   left: 0px;
   top: 0px;
-}
-.blogtext1 {
-  position: relative;
-  left: 201.00px;
-  top: 3883.00px;
-}
-.blogtext2 {
-  position: relative;
-  left: 740.00px;
-    top: 3883.00px;
 }
 .blogtext3 {
   position: relative;
   left: 0;
   top: 0;
 }
- .blogtext1, .blogtext2, .blogtext3 {
+ .blogtext3 {
       text-align: left;
       letter-spacing: 0.00px;
       color: rgba(54, 84, 124, 1);
@@ -700,90 +625,23 @@ border-top:#fff solid 3px;
       font-weight: 400;
     font-style: normal;
       font-family: Montserrat, Arial;
-      width: 480.00px;
-    height: 77.00px;
+      width: auto;
+    height: 77px;
 }
-
-
-
 .h4Title {
     position: relative;
       text-align: left;
-      letter-spacing: 0.00px;
       color: rgba(255, 255, 255, 1);
       -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-      font-size: 50.00px;
+      font-size: 50px;
       font-weight: 700;
     font-style: normal;
       font-family: Montserrat, Arial;
-      width: 634.00px;
-    height: 122.00px;
+      width: 634px;
+    height: 250px;
     left: 0px;
     top: 0px;
 }
-
-.web19201 .component627 {
-
-      display: block;
-      position: relative;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      overflow-x: unset;
-      overflow-y: unset;
-      background-color: transparent;
-      width: 175.00px;
-    height: 66.00px;
-    left: 1583.00px;
-    top: 4945.00px;
-
-}
-
-.web19201 .component627 .path1 {
-    position: relative;
-      box-sizing: border-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: transparent;
-      stroke: rgba(255, 255, 255, 1);
-          stroke-width: 2.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 175.00px;
-    height: 66.00px;
-    left: 0.00px;
-    top: 0.00px;
-
-}
-
 
 .reviewBubble {
     position: relative;
@@ -814,7 +672,7 @@ border-top:#fff solid 3px;
     height: auto;
     left: 0px;
     top: 0px;
-    padding:25px 45px;
+    padding: 25px 0px 0 45px;
 }
 
 .reviewSelector {
@@ -857,65 +715,74 @@ border-top:#fff solid 3px;
     top: 0px;
 }
 
-.web19201 .group6 .ellipse18 {
-    position: relative;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: rgba(54, 84, 124, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 19.00px;
-    height: 19.00px;
-    left: 109.00px;
-    top: -1.00px;
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .homeTitle1{
+      font-size:4.5vw;
+      border-top: #fff solid 1px;
+    }
+    .bg1{
+      height: 25%;
+    width: 25%;
+    }
+    .content2{
+      padding:0;
+    }
+    .startNow, .startNow2, .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology, .buy, .refinance {
+      width: 110px;
+    height: 50px;
+    font-size: 7vw;
+    border: #fff solid 1px;
+    }
+    .whoHeader {
+      width: 135px;
+      height: 42px;
+      top: -41px;
+      left: -21px;
+  }
+  .calculatorHeader, .blogHeader, .reviewHeader, .whoHeader {
+    font-size: 5.0vw;
+  }
 }
 
-.web19201 .group6 .ellipse19 {
-    position: relative;
-      box-sizing: content-box;
-      -ms-transform: rotate(0.00deg);
-    -webkit-transform: rotate(0.00deg);
-    transform: rotate(0.00deg);
-    -ms-transform-origin: center;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-      opacity: 1;
-      cursor: default;
-      margin-top: 0.00px;
-      margin-right: 0.00px;
-      margin-bottom: 0.00px;
-      margin-left: 0.00px;
-      padding-top: 0.00px;
-      padding-right: 0.00px;
-      padding-bottom: 0.00px;
-      padding-left: 0.00px;
-      fill: rgba(54, 84, 124, 1);
-      stroke: rgba(0, 0, 0, 0);
-          stroke-width: 1.00px;
-          stroke-linecap: butt;
-      box-shadow: none;
-      width: 20.00px;
-    height: 19.00px;
-    left: 144.00px;
-    top: -1.00px;
-
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .rectangle106, .rectangle105, .rectangle104, .rectangle103 {
+    width:200px;
+  }
+  .homeTitle1{
+  font-size:3.4vw;
+  }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .rectangle106, .rectangle105, .rectangle104, .rectangle103 {
+    width:250px;
+  }
+  .blogTitle3{
+    font-size: 1.25vw;
+  }
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+  .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology {
+    font-size:1.5vw;
+  }
+  .rectangle106, .rectangle105, .rectangle104, .rectangle103 {
+    width:275px;
+  }
+  .blogTitle3{
+    font-size: 1.35vw;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .rectangle106, .rectangle105, .rectangle104, .rectangle103 {
+    width:500px;
+  }
+}

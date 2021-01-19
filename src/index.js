@@ -12,19 +12,20 @@ import { extendTheme } from "@chakra-ui/react"
 
 // import App from './components/App';
 
-import LandingPage from './PHMC-Homepage/LandingPage';
-import Home2 from './PHMC-Homepage/LandingPage2';
+//import LandingPage from './PHMC-Homepage/LandingPage';
+import LandingPage from './PHMC-Homepage/LandingPage2';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
 import Locations from './PHMC-Homepage/locations';
-// import Buy from './PHMC-Homepage/buy';
-import Buy from './PHMC-Homepage/buyTest';
-// import Refi from './PHMC-Homepage/refi';
-import Refi from './PHMC-Homepage/refiTest';
+import Buy from './PHMC-Homepage/buyLandingPage';
+//import Buy from './PHMC-Homepage/buyTest';
+import Refi from './PHMC-Homepage/refiLandingPage';
+//import Refi from './PHMC-Homepage/refiTest';
 import Startnow from './PHMC-Homepage/startnow';
 import Licensing from './PHMC-Homepage/licensing';
 import Ccpa from './PHMC-Homepage/ccpa';
 import EmailPolicy from './PHMC-Homepage/emailPolicy';
+import buyLandingPage from './PHMC-Homepage/buyLandingPage';
 
 const colors = {
   brand: {
@@ -41,7 +42,7 @@ ReactDOM.render((
       <ConnectedRouter history={history}>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/home" component={Home2} />
+          {/*<Route path="/home" component={home2} />*/}
           <Route path="/careers" component={Careers} />
           <Route path="/contact" component={Contact} />
           <Route path="/locations" component={Locations} />

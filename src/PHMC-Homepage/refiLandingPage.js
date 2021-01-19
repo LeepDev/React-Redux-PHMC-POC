@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState, useEffect, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
@@ -7,10 +6,8 @@ import Footer from './Footer2';
 
 import "./css/home2.css";
 import 'universal-parallax/dist/universal-parallax.min.js';
-import { Container } from 'react-bootstrap';
 
-
-class LandingPage extends React.Component {
+class refiLandingPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -18,7 +15,7 @@ class LandingPage extends React.Component {
         };
     }
 
- 
+
     render() {
     
         return (
@@ -30,21 +27,20 @@ class LandingPage extends React.Component {
         <section className="container container--full">
 		<div className="content2">
             <div className="flexWrapCenter">
-		    <div className="homeTitle1"> <span className="h2Bold">Freedom</span> <span className="h2Normal"> to choose the </span> <span className="h2Bold">Home</span> <span className="h2Normal"> you love</span><br/> <span className="h2Normal">with a lender who </span><span className="h2Bold">Cares</span></div>
+		    <div className="homeTitle1"> <span className="h2Normal"> In the home you </span> <span className="h2Bold">Love</span> <br/> <span className="h2Normal">Let's refinance </span><span className="h2Bold">Today!</span></div>
             </div>
             <div className="flexWrapAround">
-            <Button className="buy">Buy</Button>
-            <Button className="refinance">Refi</Button>
+            <Button className="startNow">Start Now</Button>
             </div>
 		</div>
             
         <div className="parallax__container">
             <div className="opacityBackgroundOne"></div>
-		    <div className="parallax bg1"></div>
+		    <div className="parallax refiBG1"></div>
         </div>
 	    </section>
 
-        {/* Section who we are */}
+        {/* Section who we are 
         <section className="container container--small">
         <div className="whoHeader">Who We Are</div>
 		<div className="content2">
@@ -65,13 +61,13 @@ class LandingPage extends React.Component {
         <div className="opacityBackgroundOne"></div>
         <div className="parallax bg2"></div>
         </div>
-	</section>
+	</section>*/}
 
         {/* Section monthly payment */}
 
         <section className="container container--big">
         <div className="calculatorHeader">Monthly Payments Made Easy</div>
-		<div className="content2">
+		<div className="content2 negativeTopSpace">
         <div className="flexWrapLeft"><div>
         <div className="quickLookAtYourMonthlyPayments">Quick look at your monthly payments</div>
         <Form>
@@ -99,9 +95,9 @@ class LandingPage extends React.Component {
 
         {/* Section fresh look at your home */}
 
-<section className="container container--big">
+<section className="container container--big " >
 <div className="blogHeader">A fresh look at your home</div>
-    <div className="content2">
+    <div className="content2 negativeTopSpace">
         <div className="flexWrapLeft">
         <Button className="ceo">From CEO</Button>
         <Button className="holiday">Holidays</Button>
@@ -157,7 +153,7 @@ class LandingPage extends React.Component {
         
 {/* Section WHAT PEOPLE are saying */}
 
-<section className="container container--full">
+<section className="container container--big">
 <div className="reviewHeader">What people are saying</div>
 <div className="content2">
 <div className="flexWrapLeft"><div>
@@ -196,5 +192,5 @@ class LandingPage extends React.Component {
 }
 
 
-export default LandingPage;
+export default refiLandingPage;
           
