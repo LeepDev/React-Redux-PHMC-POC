@@ -39,6 +39,9 @@
     .container--small {
       height: 65vh;
   }
+  .container--custom {
+    height: 330vw;
+}
       .parallax__container {
         clip: rect(0, auto, auto, 0);
         height: 100%;
@@ -81,6 +84,21 @@
         width: 100%;
         z-index: -1;
         }
+        .buysummary{
+          font-size: 2vw;
+          font-weight: 700;
+        }
+        .buyDetails{
+          position: relative;
+          text-align: left;
+          color: rgba(255, 255, 255, 1);
+          font-size: 1.5vw;
+          font-weight: 300;
+          font-style: normal;
+          font-family: Montserrat, Arial;
+          border-bottom:solid 1px #fff;
+          padding: 10px 0;     
+           }
         .flexWrapAround .startNow{
           margin-top:275px;
         }
@@ -514,6 +532,41 @@ border-top:#fff solid 3px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.infographic1{
+  background-image: url("../../assets/landingPage/genz1_housing.jpg");
+}
+.infographic2{
+  background-image: url("../../assets/landingPage/genz1_education.jpg");
+}
+.infographic3{
+  background-image: url("../../assets/landingPage/genz1_money.jpg");
+}
+.infographic4{
+  background-image: url("../../assets/landingPage/realestatagent.jpg");
+}
+.infographic1, .infographic2, .infographic3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 83vw;
+  height: 46vw;
+  left: 0px;
+  top: 0px;
+  margin-top:45px;
+}
+.infographic4{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 83vw;
+  height: 141vw;
+  left: 0px;
+  top: 0px;
+  margin-top:45px;
+}
+
 .rectangle106 {
   background-image: url("../../assets/landingPage/rectangle106.png");
 }

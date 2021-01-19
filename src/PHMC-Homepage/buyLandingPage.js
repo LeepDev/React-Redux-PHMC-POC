@@ -40,19 +40,27 @@ class buyLandingPage extends React.Component {
         </div>
 	    </section>
 
-        {/* Section who we are 
-        <section className="container container--small">
-        <div className="whoHeader">Who We Are</div>
-		<div className="content2">
+         
+        <section className="container container--big">
+        <div className="calculatorHeader">Tips for buying a new home</div>
+		<div className="content2 negativeTopSpace">
 
-            <div className="flexWrapRight"><div>
-            <div className="h2Title"><span className="h2Normal">We are </span><span className="h2Bold">Not</span><span className="h2Normal"> just another </span><span className="h2Bold">Lender</span></div>
-            <div className="p2Top">Here at Platinum Home Mortgage, we are in the business of helping people. Our belief is that your home is where love and security comes from. We strive to get every person into their own home.  Talk to our amazing team today to see what they can do for you.</div>
+            <div className="flexWrapEven"><div>
+            <details className="buyDetails"><summary className="buysummary">Location, location, location!</summary>Supply and demand are two factors that will always play a role in real estate appreciation. Housing supply in great locations is limited to the number of homes in that location. Location creates desirability, desirability creates demand, and demand raises real estate prices</details>
+            <details className="buyDetails"><summary className="buysummary">What do you want in your new home?</summary>Millennials are buying homes later in life than previous generations and are doing away with many of the traditional home elements their parents desired. Trends among millennials include a desire for multifunctional and community spaces, and homes with modern, sustainable elements</details>
+            <details className="buyDetails"><summary className="buysummary">How long will you live there?</summary>The longer you keep them, the more valuable they get. In real estate, this calls to mind the five-year rule, which states that new homeowners should generally stay put for at least five years before selling their property or risk losing money</details>
+            <details className="buyDetails"><summary className="buysummary">How much monthly payment do you qualify for?</summary>Your mortgage payment should not be more than 25% of your take-home pay ... for a much larger loan than what 25% of your take-home pay would give you.</details>
+            <details className="buyDetails"><summary className="buysummary">What kind of monthly payment do you believe you can actually afford?</summary>If you earn $5,000 a month, that means your monthly house payment should be no more than $1,250. ... On average, closing costs are about 4% of the purchase price of your home</details>
+            <details className="buyDetails"><summary className="buysummary">Do you have a down payment saved?</summary>You're perceived as a higher risk by the lender, so you'll likely pay a higher interest rate on your loan. With “risk-based pricing,” lenders charge higher mortgage rates to borrowers with lower credit scores and meager or no down payments</details>
+            <details className="buyDetails"><summary className="buysummary">How much do you need for a down payment?</summary>Avoid PMI. You'll need to put 20% down if you want to avoid buying private mortgage insurance (PMI)</details>
+            <details className="buyDetails"><summary className="buysummary">Does your community offer payment assistance programs and are you eligible?</summary>The HOMEownership Down Payment and Closing Cost Assistance program (DPA) provides flexible gap financing for first-time homebuyers at or below 80 percent of the area median income. The DPA, which is available in only certain, specified areas, comes in the form of a grant.</details>
+            <details className="buyDetails"><summary className="buysummary">What are all your options for a new mortgage?</summary>Conventional mortgages. A conventional mortgage is a home loan that's not insured by the federal government. Jumbo mortgages. Government-insured mortgages. Fixed-rate mortgages. Adjustable-rate mortgages.</details>
+            <details className="buyDetails"><summary className="buysummary">Getting preapproved for a mortgage.</summary>Although mortgage underwriters do look at a variety of different information when determining loan qualifications, it ultimately comes down to four things: credit, equity, income and assets.</details>
+
             </div></div>
             <div>
             <div className="flexWrapEven"><div>
-            <div className="h3Title"><span className="h2Normal">What makes us </span><span className="h2Bold">Different</span></div>
-            <div className="p2Bottom">Working with a direct lender, like Platinum, can help you achieve your homeownership goals in a much smoother, simpler process</div>
+           
             </div>
             <Button className="startNow">Start Now</Button>
             </div></div>
@@ -61,7 +69,7 @@ class buyLandingPage extends React.Component {
         <div className="opacityBackgroundOne"></div>
         <div className="parallax bg2"></div>
         </div>
-	</section>*/}
+	</section>
 
         {/* Section monthly payment */}
 
@@ -153,20 +161,15 @@ class buyLandingPage extends React.Component {
         
 {/* Section WHAT PEOPLE are saying */}
 
-<section className="container container--big">
-<div className="reviewHeader">What people are saying</div>
+<section className="container container--custom">
+<div className="whoHeader">Learn more</div>
 <div className="content2">
 <div className="flexWrapLeft"><div>
-
-<div className="reviewBubble">
-    <div className="reviewText">Andy went over and above to make sure that we had the best possible experience with our mortgage. From the moment we started working with him he was in constant contact-ensuring that we had the best rate and answering any and all questions we could throw his way. From start to finish our experience was outstanding! You won’t find a better lender! <br /><br />  — mandaraper3</div>
-    <div className="reviewSelector">            
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse17"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-</div>
+<div className="infographic1"></div>
+<div className="infographic2"></div>
+<div className="infographic3"></div>
+<div className="infographic4"></div>
+<div>
 </div>
 
 

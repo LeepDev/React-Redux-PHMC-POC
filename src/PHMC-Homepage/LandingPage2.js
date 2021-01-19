@@ -33,8 +33,8 @@ class LandingPage extends React.Component {
 		    <div className="homeTitle1"> <span className="h2Bold">Freedom</span> <span className="h2Normal"> to choose the </span> <span className="h2Bold">Home</span> <span className="h2Normal"> you love</span><br/> <span className="h2Normal">with a lender who </span><span className="h2Bold">Cares</span></div>
             </div>
             <div className="flexWrapAround">
-            <Button className="buy">Buy</Button>
-            <Button className="refinance">Refi</Button>
+            <a href={'buy'}><Button className="buy">Buy</Button></a>
+            <a href={'refi'}><Button className="refinance">Refi</Button></a>
             </div>
 		</div>
             
