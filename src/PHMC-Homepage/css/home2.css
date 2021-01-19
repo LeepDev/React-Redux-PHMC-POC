@@ -42,6 +42,9 @@
   .container--custom {
     height: 330vw;
 }
+.container--custom2 {
+  height: 240vw;
+}
       .parallax__container {
         clip: rect(0, auto, auto, 0);
         height: 100%;
@@ -544,7 +547,16 @@ border-top:#fff solid 3px;
 .infographic4{
   background-image: url("../../assets/landingPage/realestatagent.jpg");
 }
-.infographic1, .infographic2, .infographic3 {
+.infographic5{
+  background-image: url("../../assets/landingPage/equity_092618.jpg");
+}
+.infographic6{
+  background-image: url("../../assets/landingPage/debt_092618.jpg");
+}
+.infographic7{
+  background-image: url("../../assets/landingPage/Cashout_refi_illustration1.jpg");
+}
+.infographic1, .infographic2, .infographic3, .infographic4, .infographic5, .infographic6, .infographic7 {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -555,16 +567,11 @@ border-top:#fff solid 3px;
   top: 0px;
   margin-top:45px;
 }
-.infographic4{
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 83vw;
+.infographic4, {
   height: 141vw;
-  left: 0px;
-  top: 0px;
-  margin-top:45px;
+}
+.infographic7{
+  height: 103vw;
 }
 
 .rectangle106 {

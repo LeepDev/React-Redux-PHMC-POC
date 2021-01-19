@@ -40,19 +40,23 @@ class refiLandingPage extends React.Component {
         </div>
 	    </section>
 
-        {/* Section who we are 
-        <section className="container container--small">
-        <div className="whoHeader">Who We Are</div>
-		<div className="content2">
+        {/* educate section */}
+        <section className="container container--big">
+        <div className="calculatorHeader">When should you refinance?</div>
+		<div className="content2 negativeTopSpace">
 
-            <div className="flexWrapRight"><div>
-            <div className="h2Title"><span className="h2Normal">We are </span><span className="h2Bold">Not</span><span className="h2Normal"> just another </span><span className="h2Bold">Lender</span></div>
-            <div className="p2Top">Here at Platinum Home Mortgage, we are in the business of helping people. Our belief is that your home is where love and security comes from. We strive to get every person into their own home.  Talk to our amazing team today to see what they can do for you.</div>
+            <div className="flexWrapEven"><div>
+            <details className="buyDetails"><summary className="buysummary">The Fed has artificially cut rates to save all homeowners money</summary> </details>
+            <details className="buyDetails"><summary className="buysummary">You want to save thousands of dollars of interest and switch from a 30 year fixed to a 15 year fixed home loan.</summary> </details>
+            <details className="buyDetails"><summary className="buysummary">Your current interest rate is higher than rates available today.  </summary> </details>
+            <details className="buyDetails"><summary className="buysummary">You have an adjustable rate mortgage and want to switch to a fixed loan and secure these low rates long term.</summary> </details>
+            <details className="buyDetails"><summary className="buysummary">You want to take cash out to pay your bills.</summary> </details>
+            <details className="buyDetails"><summary className="buysummary">You want to take cash out to fund a major event, such as: college, wedding, baby, car purchase, vacation, etc.</summary> </details>
+            <details className="buyDetails"><summary className="buysummary">You would funds to rehab parts of your home. </summary> </details>
             </div></div>
             <div>
             <div className="flexWrapEven"><div>
-            <div className="h3Title"><span className="h2Normal">What makes us </span><span className="h2Bold">Different</span></div>
-            <div className="p2Bottom">Working with a direct lender, like Platinum, can help you achieve your homeownership goals in a much smoother, simpler process</div>
+           
             </div>
             <Button className="startNow">Start Now</Button>
             </div></div>
@@ -61,7 +65,7 @@ class refiLandingPage extends React.Component {
         <div className="opacityBackgroundOne"></div>
         <div className="parallax bg2"></div>
         </div>
-	</section>*/}
+	</section>
 
         {/* Section monthly payment */}
 
@@ -151,22 +155,16 @@ class refiLandingPage extends React.Component {
     
     </section>      
         
-{/* Section WHAT PEOPLE are saying */}
+{/* infographics */}
 
-<section className="container container--big">
-<div className="reviewHeader">What people are saying</div>
+<section className="container container--custom2">
+<div className="whoHeader">Learn more</div>
 <div className="content2">
 <div className="flexWrapLeft"><div>
-
-<div className="reviewBubble">
-    <div className="reviewText">Andy went over and above to make sure that we had the best possible experience with our mortgage. From the moment we started working with him he was in constant contact-ensuring that we had the best rate and answering any and all questions we could throw his way. From start to finish our experience was outstanding! You won’t find a better lender! <br /><br />  — mandaraper3</div>
-    <div className="reviewSelector">            
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse17"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-<svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
-</div>
+<div className="infographic5"></div>
+<div className="infographic6"></div>
+<div className="infographic7"></div>
+<div>
 </div>
 
 

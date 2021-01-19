@@ -40,7 +40,8 @@ class buyLandingPage extends React.Component {
         </div>
 	    </section>
 
-         
+         {/* educate section */}
+
         <section className="container container--big">
         <div className="calculatorHeader">Tips for buying a new home</div>
 		<div className="content2 negativeTopSpace">
@@ -159,7 +160,7 @@ class buyLandingPage extends React.Component {
     
     </section>      
         
-{/* Section WHAT PEOPLE are saying */}
+{/* infographics */}
 
 <section className="container container--custom">
 <div className="whoHeader">Learn more</div>
