@@ -863,3 +863,7 @@ border-top:#fff solid 3px;
     width:500px;
   }
 }
+
+.noUnderline:hover {
+  text-decoration: none;
+}

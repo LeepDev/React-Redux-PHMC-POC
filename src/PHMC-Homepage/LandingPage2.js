@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
 import Footer from './Footer2';
+import { Link } from 'react-router-dom';
 
 import "./css/home2.css";
 import 'universal-parallax/dist/universal-parallax.min.js';
@@ -33,8 +34,8 @@ class LandingPage extends React.Component {
 		    <div className="homeTitle1"> <span className="h2Bold">Freedom</span> <span className="h2Normal"> to choose the </span> <span className="h2Bold">Home</span> <span className="h2Normal"> you love</span><br/> <span className="h2Normal">with a lender who </span><span className="h2Bold">Cares</span></div>
             </div>
             <div className="flexWrapAround">
-            <a href={'buy'}><Button className="buy">Buy</Button></a>
-            <a href={'refi'}><Button className="refinance">Refi</Button></a>
+            <Link to="/buy" className="noUnderline"><Button className="buy">Buy</Button></Link>
+            <Link to="/refi" className="noUnderline"><Button className="refinance">Refi</Button></Link>
             </div>
 		</div>
             
