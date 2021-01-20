@@ -36,13 +36,6 @@ class BuyTest extends React.Component {
   }
 }
 
-Buy.propTypes = {
-
-}
-
-Buy.defaultProps = {
-
-}
 
 
 export default BuyTest;
