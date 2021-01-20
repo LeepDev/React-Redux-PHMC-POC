@@ -169,18 +169,30 @@ class refiLandingPage extends React.Component {
 
 
 </div></div>
-<div className="flexWrapEven"><div>
-<div  className="h4Title"><span className="h2Normal">Found the </span><span className="h2Bold">Perfect</span><span className="h2Normal"> home <br />or in the home you </span><span className="h2Bold">Love</span></div>
-</div>
-<Button className="startNow2">Start Now</Button>
-</div>
-</div>
 
+</div>
 <div className="parallax__container">
 <div className="opacityBackgroundOne"></div>
         <div className="parallax bg5"></div>
             
 </div>
+</section>
+
+{/* bottom */}
+<section className="container container--small">
+<div className="content2">
+            <div className="flexWrapCenter">
+		    <div className="footerTitle1"> <span className="h2Bold">Found the perfect home, or in the home you love</span><br/> <span className="h2Small"> let us help you finance it. Get started now </span> </div>
+            </div>
+            <div className="flexWrapAround">
+           <Button className="footerButton">I'm buying</Button>
+        <Button className="footerButton">I'm refinancing</Button>
+            </div>
+		</div>
+        
+    <div className="parallax__container">
+        <div className=" bg8"></div>
+    </div>
 </section>
         
         <Footer></Footer> 

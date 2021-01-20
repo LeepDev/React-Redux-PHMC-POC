@@ -153,6 +153,34 @@
         height: 100%;
         z-index: -1;
   }
+  .bg6 {
+    background-image: url("../../assets/landingPage/homeFooterImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bg7 {
+  background-image: url("../../assets/landingPage/buyFooterImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bg8 {
+  background-image: url("../../assets/landingPage/refiFooterImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
     .content2{
       width:100%;
       padding:30px 65px;
@@ -210,6 +238,22 @@
   left:0;
 }
 
+.footerTitle1 {
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 3vw;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Montserrat, Arial;
+  width: auto;
+  height: auto;
+  margin: 0px auto 0;
+  display: block;
+  top:1vh;
+  left:0;
+}
+
  .calculate{
   display: block;
   background-color: transparent;
@@ -236,6 +280,12 @@ border: #36547c solid 3px;
   left: 0;
   top: 30vh;
 }
+.footerButton {
+  left: 0;
+  top: 10vh;
+  width:auto!important;
+  padding: 5px 25px;
+}
 .refinance {
   left: 0;
   top: 30vh;
@@ -261,13 +311,13 @@ top: 0px;
   left:0;
 }
 
-.startNow:hover, .startNow2:hover, .startNow3:hover, .ceo:hover, .holiday:hover, .market:hover, .realEstate:hover, .resources:hover, .spotLight:hover, .technology:hover, .buy:hover, .refinance:hover  {
+.startNow:hover, .startNow2:hover, .startNow3:hover, .ceo:hover, .holiday:hover, .market:hover, .realEstate:hover, .resources:hover, .spotLight:hover, .technology:hover, .buy:hover, .refinance:hover, .footerButton:hover  {
   transition-duration: 0.5s;
   background-color: rgb(54, 84, 124, 1);
    color: rgba(255, 255, 255);
 }
 
-.startNow, .startNow2, .startNow3, .buy, .refinance {
+.startNow, .startNow2, .startNow3, .buy, .refinance, .footerButton {
   display: block;
     position: relative;
       box-sizing: content-box;
@@ -321,6 +371,12 @@ top: 0px;
 
 .h2Normal {
     font-weight: 400;
+}
+.h2Small {
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 1;
+  display: block;
 }
 
 .h2Bold {
@@ -553,13 +609,13 @@ border-top:#fff solid 3px;
     background-size: cover;
 }
 .infographic1{
-  background-image: url("../../assets/landingPage/genz1_housing.jpg");
+  background-image: url("../../assets/landingPage/nomoneydown.jpg");
 }
 .infographic2{
-  background-image: url("../../assets/landingPage/genz1_education.jpg");
+  background-image: url("../../assets/landingPage/FHA_35down.jpg");
 }
 .infographic3{
-  background-image: url("../../assets/landingPage/genz1_money.jpg");
+  background-image: url("../../assets/landingPage/VACover.jpg");
 }
 .infographic4{
   background-image: url("../../assets/landingPage/realestatagent.jpg");

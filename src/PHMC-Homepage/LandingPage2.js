@@ -173,20 +173,30 @@ class LandingPage extends React.Component {
 <svg preserveAspectRatio="none" viewBox="-0.75 -0.75 18.5 18.5" className="ellipse15"><path d="M 8.5 0 C 13.19441986083984 0 17 3.805579662322998 17 8.5 C 17 13.19441986083984 13.19441986083984 17 8.5 17 C 3.805579662322998 17 0 13.19441986083984 0 8.5 C 0 3.805579662322998 3.805579662322998 0 8.5 0 Z"  /></svg>
 </div>
 </div>
-
-
 </div></div>
-<div className="flexWrapEven"><div>
-<div  className="h4Title"><span className="h2Normal">Found the </span><span className="h2Bold">Perfect</span><span className="h2Normal"> home <br />or in the home you </span><span className="h2Bold">Love</span></div>
-</div>
-<Button className="startNow2">Start Now</Button>
-</div>
+
 </div>
 
 <div className="parallax__container">
 <div className="opacityBackgroundOne"></div>
         <div className="parallax bg5"></div>
             
+</div>
+</section>
+
+{/* bottom */}
+<section className="container container--small">
+<div className="content2">
+            <div className="flexWrapCenter">
+		    <div className="footerTitle1"> <span className="h2Bold">Found the perfect home, or in the home you love</span><br/> <span className="h2Small"> let us help you finance it. Get started now </span> </div>
+            </div>
+            <div className="flexWrapAround">
+            <Link to="/buy" className="noUnderline"><Button className="footerButton">I'm buying</Button></Link>
+            <Link to="/refi" className="noUnderline"><Button className="footerButton">I'm refinancing</Button></Link>
+            </div>
+		</div>
+        <div className="parallax__container">
+        <div className=" bg6"></div>
 </div>
 </section>
         
