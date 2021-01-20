@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
 import Footer from './Footer2';
 import { Link } from 'react-router-dom';
+import Calcualtor from './MortgageCalculator'
 
 import "./css/home2.css";
 import 'universal-parallax/dist/universal-parallax.min.js';
@@ -75,15 +75,7 @@ class LandingPage extends React.Component {
 		<div className="content2">
         <div className="flexWrapLeft"><div>
         <div className="quickLookAtYourMonthlyPayments">Quick look at your monthly payments</div>
-        <Form>
-            <Form.Group controlId="mortgageCalculator">
-                <Form.Control type="number" placeholder="How much do you want to borrow?" className="loanAmount"/>
-                <Form.Control type="number" placeholder="What is the interest rate?" className="interestRate"/>
-                <Form.Control type="number" placeholder="How many years is the loan? " className="loanTime"/>
-                <Button className="calculate">Calculate</Button>
-                <Form.Control type="number" placeholder="Estimated monthly payment" className="monthlyPayment"/>
-            </Form.Group>
-        </Form>
+        <Calcualtor></Calcualtor>
         </div></div>
         <div className="flexWrapEven"><div>
         <div className="getAPreapproaval">Get a Preapproaval</div>

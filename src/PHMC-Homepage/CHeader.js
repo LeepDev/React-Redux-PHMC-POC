@@ -52,9 +52,9 @@ const Header = props => {
         <Link to="/refi" className="refiC">
             Refi
         </Link>
-        <Link to="/blog" className="blogC">
+        <a href="http://blog.phmc.com/" className="blogC">
             Blog
-        </Link>
+        </a>
         <Link to="/contact" className="contactC">
             Contact
         </Link>
