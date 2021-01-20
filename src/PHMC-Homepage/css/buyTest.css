@@ -15,6 +15,7 @@
 .formClass {
   font-family: Montserrat, Arial;
   color: white;
+  width: 600px;
 }
 
 .formClass button{
