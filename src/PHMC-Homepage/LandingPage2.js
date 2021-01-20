@@ -157,7 +157,7 @@ class LandingPage extends React.Component {
         
 {/* Section WHAT PEOPLE are saying */}
 
-<section className="container container--full">
+<section className="container container--big">
 <div className="reviewHeader">What people are saying</div>
 <div className="content2">
 <div className="flexWrapLeft"><div>

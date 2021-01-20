@@ -99,7 +99,6 @@
           font-weight: 300;
           font-style: normal;
           font-family: Montserrat, Arial;
-          border-bottom:solid 1px #fff;
           padding: 10px 0;     
            }
         .flexWrapAround .startNow{
@@ -264,10 +263,28 @@ top: 0px;
 
 .startNow:hover, .startNow2:hover, .startNow3:hover, .ceo:hover, .holiday:hover, .market:hover, .realEstate:hover, .resources:hover, .spotLight:hover, .technology:hover, .buy:hover, .refinance:hover  {
   transition-duration: 0.5s;
+  background-color: rgb(54, 84, 124, 1);
+   color: rgba(255, 255, 255);
+}
+
+.startNow, .startNow2, .startNow3, .buy, .refinance {
+  display: block;
+    position: relative;
+      box-sizing: content-box;
+      opacity: 1;
+      cursor: default;
+      text-align: center;
+      font-size: 30.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: Montserrat, Arial;
+      transition-duration: 0.5s;
+      width: 175.00px;
+      height: 66.00px;
   color: rgb(54, 84, 124, 1);
   background-color:  rgba(255, 255, 255);
 }
- .startNow, .startNow2, .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology, .buy, .refinance  {
+  .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology {
   display: block;
   background-color: transparent;  
   border: #fff solid 3px;
@@ -567,7 +584,7 @@ border-top:#fff solid 3px;
   top: 0px;
   margin-top:45px;
 }
-.infographic4, {
+.infographic4 {
   height: 141vw;
 }
 .infographic7{

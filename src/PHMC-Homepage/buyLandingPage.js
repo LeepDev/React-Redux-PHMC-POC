@@ -44,7 +44,7 @@ class buyLandingPage extends React.Component {
 
         <section className="container container--big">
         <div className="calculatorHeader">Tips for buying a new home</div>
-		<div className="content2 negativeTopSpace">
+		<div className="content2">
 
             <div className="flexWrapEven"><div>
             <details className="buyDetails"><summary className="buysummary">Location, location, location!</summary>Supply and demand are two factors that will always play a role in real estate appreciation. Housing supply in great locations is limited to the number of homes in that location. Location creates desirability, desirability creates demand, and demand raises real estate prices</details>
