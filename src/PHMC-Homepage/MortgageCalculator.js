@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const Calculator = () => {
    return (
-       <div>
+       <>
           <Form>
             <Form.Group controlId="mortgageCalculator">
                 <Form.Control type="number" placeholder="How much do you want to borrow?" className="loanAmount"/>
@@ -14,7 +14,7 @@ const Calculator = () => {
                 <Form.Control type="number" placeholder="Estimated monthly payment" className="monthlyPayment"/>
             </Form.Group>
         </Form>
-       </div>
+       </>
    )
 }
 

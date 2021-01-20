@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Flex, Text } from "@chakra-ui/react";
 import { Link } from 'react-router-dom';
+import ReviewModal from './ReviewModal';
 import "./css/cheader.css"
 
 const MenuItems = ({ children }) => (
@@ -39,7 +40,7 @@ const Header = props => {
         alignItems="left"
         flexGrow={1}
       >
-        <div className="rectangle851"></div>
+          <ReviewModal></ReviewModal>
       </Box>
 
       <Box
