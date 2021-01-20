@@ -10,9 +10,6 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { extendTheme } from "@chakra-ui/react"
 
 
-// import App from './components/App';
-
-//import LandingPage from './PHMC-Homepage/LandingPage';
 import LandingPage from './PHMC-Homepage/LandingPage2';
 import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
@@ -25,7 +22,7 @@ import Startnow from './PHMC-Homepage/startnow';
 import Licensing from './PHMC-Homepage/licensing';
 import Ccpa from './PHMC-Homepage/ccpa';
 import EmailPolicy from './PHMC-Homepage/emailPolicy';
-import buyLandingPage from './PHMC-Homepage/buyLandingPage';
+import ScrollToTop from './PHMC-Homepage/ScrollToTop';
 
 const colors = {
   brand: {
@@ -40,9 +37,9 @@ ReactDOM.render((
   <ChakraProvider>
     <Provider store={store}>
       <ConnectedRouter history={history}>
+        <ScrollToTop>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          {/*<Route path="/home" component={home2} />*/}
           <Route path="/careers" component={Careers} />
           <Route path="/contact" component={Contact} />
           <Route path="/locations" component={Locations} />
@@ -56,6 +53,7 @@ ReactDOM.render((
           <Route path="/ccpa" component={Ccpa} />
           <Route path="/emailPolicy" component={EmailPolicy} />
         </Switch>
+        </ScrollToTop>
       </ConnectedRouter>
     </Provider>
   </ChakraProvider>
