@@ -8,7 +8,7 @@ import './css/buyTest.css'
 import { Progress, Grid, Box, Flex, Stack, RadioGroup,
   Radio, GridItem, Text, Center } from '@chakra-ui/react'
 
-class Refi extends React.Component {
+class RefiTest extends React.Component {
 
   render() {    
     return (
@@ -37,5 +37,5 @@ class Refi extends React.Component {
 }
 
 
-export default Refi;
+export default RefiTest;
           

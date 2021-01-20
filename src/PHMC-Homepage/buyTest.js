@@ -8,7 +8,7 @@ import './css/buyTest.css'
 import { Progress, Grid, Box, Flex, Stack, RadioGroup,
   Radio, GridItem, Text, Center } from '@chakra-ui/react'
 
-class Buy extends React.Component {
+class BuyTest extends React.Component {
 
   render() {    
     return (
@@ -45,5 +45,5 @@ Buy.defaultProps = {
 }
 
 
-export default Buy;
+export default BuyTest;
           

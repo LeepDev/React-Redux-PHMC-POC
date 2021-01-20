@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Header from './CHeader';
 import Footer from './Footer2';
+import { Link } from 'react-router-dom';
 
 import "./css/home2.css";
 import 'universal-parallax/dist/universal-parallax.min.js';
@@ -185,8 +186,8 @@ class refiLandingPage extends React.Component {
 		    <div className="footerTitle1"> <span className="h2Bold">Found the perfect home, or in the home you love</span><br/> <span className="h2Small"> let us help you finance it. Get started now </span> </div>
             </div>
             <div className="flexWrapAround">
-           <Button className="footerButton">I'm buying</Button>
-        <Button className="footerButton">I'm refinancing</Button>
+            <Link to="/buyTest" className="noUnderline"><Button className="footerButton">I'm buying</Button></Link>
+            <Link to="/refiTest" className="noUnderline"><Button className="footerButton">I'm refinancing</Button></Link>
             </div>
 		</div>
         

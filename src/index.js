@@ -18,9 +18,9 @@ import Careers from './PHMC-Homepage/careers';
 import Contact from './PHMC-Homepage/contact';
 import Locations from './PHMC-Homepage/locations';
 import Buy from './PHMC-Homepage/buyLandingPage';
-//import Buy from './PHMC-Homepage/buyTest';
+import BuyTest from './PHMC-Homepage/buyTest';
 import Refi from './PHMC-Homepage/refiLandingPage';
-//import Refi from './PHMC-Homepage/refiTest';
+import RefiTest from './PHMC-Homepage/refiTest';
 import Startnow from './PHMC-Homepage/startnow';
 import Licensing from './PHMC-Homepage/licensing';
 import Ccpa from './PHMC-Homepage/ccpa';
@@ -48,6 +48,8 @@ ReactDOM.render((
           <Route path="/locations" component={Locations} />
           <Route path="/buy" component={Buy} />
           <Route path="/refi" component={Refi} />
+          <Route path="/buyTest" component={BuyTest} />
+          <Route path="/refiTest" component={RefiTest} />
           <Route path="/blog" component={Startnow} />
           <Route path="/startnow" component={Startnow} />
           <Route path="/licensing" component={Licensing} />
