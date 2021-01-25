@@ -668,6 +668,10 @@ border-top:#fff solid 3px;
     top: 0px;
     margin-top:45px;
 }
+.d-block{
+  display:block;
+  width:100px;
+}
  .rectangle103 {
   position: relative;
   opacity: 0.6499999761581421;
@@ -850,28 +854,55 @@ border-top:#fff solid 3px;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .flexWrapRight, .flexWrapLeft {
+    justify-content: flex-start;
+    margin-top: -40px;
+    border-bottom: solid #fff 1px;
+  }
+  .flexWrapEven {
+    display: block;
+}
     .homeTitle1{
       font-size:4.5vw;
       border-top: #fff solid 1px;
     }
-    .bg1{
-      height: 25%;
-    width: 25%;
+    .h2Title, .h3Title, .quickLookAtYourMonthlyPayments, .getAPreapproaval{
+      font-size:4.5vw;
+      height:auto;
+      width:280px;
+      margin-bottom:10px;
+    }
+    .p2Top, .p2Bottom, .preapprovalText{
+      font-size:3.5vw;
+      width:280px;
+      height:auto;
+      margin-bottom: 20px;
+    }
+    .loanAmount, .interestRate, .loanTime {
+     width:auto;
+     height:40px;
+      margin:0;
+
     }
     .content2{
       padding:0;
     }
-    .startNow, .startNow2, .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology, .buy, .refinance {
+    .startNow3, .ceo, .holiday, .market, .realEstate, .resources, .spotLight, .technology, .buy, .refinance {
       width: 110px;
     height: 50px;
     font-size: 7vw;
     border: #fff solid 1px;
     }
-    .whoHeader {
-      width: 135px;
+    .startNow,  .startNow2, .footerButton{
+    height: 35px;
+    font-size: 4vw;
+    }
+    .whoHeader, .calculatorHeader{
+      width: auto;
       height: 42px;
-      top: -41px;
-      left: -21px;
+      top: -30px;
+      left: -18px;
+      padding:8px 15px 0;
   }
   .calculatorHeader, .blogHeader, .reviewHeader, .whoHeader {
     font-size: 5.0vw;

@@ -47,22 +47,22 @@ const Header = props => {
         display={{ sm: show ? "block" : "none", md: "block" }}
         mt={{ base: 4, md: 0 }}
       >
-        <Link to="/buy" className="buyC">
+        <Link to="/buy" className="headerButton">
             Buy
         </Link>
-        <Link to="/refi" className="refiC">
+        <Link to="/refi" className="headerButton">
             Refi
         </Link>
-        <a href="http://blog.phmc.com/" className="blogC">
+        <a href="http://blog.phmc.com/" className="headerButton">
             Blog
         </a>
-        <Link to="/contact" className="contactC">
+        <Link to="/contact" className="headerButton">
             Contact
         </Link>
-        <Link to="/locations" className="locationsC">
+        <Link to="/locations" className="headerButton">
             Locations
         </Link>
-        <Link to="/careers" className="careersC">
+        <Link to="/careers" className="headerButton">
             Careers
         </Link>
       </Box>

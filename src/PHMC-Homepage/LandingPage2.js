@@ -25,7 +25,7 @@ class LandingPage extends React.Component {
         return (
           
         <div className="web19201">
-                  <Header></Header>
+               {/*    <Header></Header>*/}
 
         {/* Section home */}
         <section className="container container--full">
@@ -66,7 +66,7 @@ class LandingPage extends React.Component {
         <div className="opacityBackgroundOne"></div>
         <div className="parallax bg2"></div>
         </div>
-	</section>
+	</section>  
 
         {/* Section monthly payment */}
 
@@ -75,7 +75,7 @@ class LandingPage extends React.Component {
 		<div className="content2">
         <div className="flexWrapLeft"><div>
         <div className="quickLookAtYourMonthlyPayments">Quick look at your monthly payments</div>
-        <Calcualtor></Calcualtor>
+         <Calcualtor></Calcualtor>
         </div></div>
         <div className="flexWrapEven"><div>
         <div className="getAPreapproaval">Get a Preapproaval</div>
@@ -88,9 +88,9 @@ class LandingPage extends React.Component {
         <div className="parallax bg3"></div>
 		    <div></div>
         </div>
-	    </section>
+	    </section> 
 
-        {/* Section fresh look at your home */}
+        {/* Section fresh look at your home 
 
 <section className="container container--big">
 <div className="blogHeader">A fresh look at your home</div>
@@ -146,9 +146,9 @@ class LandingPage extends React.Component {
             <div className="parallax bg4"></div>
         </div>
     
-    </section>      
+    </section>      */}
         
-{/* Section WHAT PEOPLE are saying */}
+{/* Section WHAT PEOPLE are saying 
 
 <section className="container container--big">
 <div className="reviewHeader">What people are saying</div>
@@ -174,7 +174,7 @@ class LandingPage extends React.Component {
         <div className="parallax bg5"></div>
             
 </div>
-</section>
+</section> */}
 
 {/* bottom */}
 <section className="container container--small">
@@ -192,7 +192,7 @@ class LandingPage extends React.Component {
 </div>
 </section>
         
-        <Footer></Footer> 
+      {/*  <Footer></Footer> */}
 </div>
     );
   }

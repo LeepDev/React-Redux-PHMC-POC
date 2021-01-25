@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Carousel from 'react-bootstrap/Carousel';
 import Header from './CHeader';
 import Footer from './Footer2';
 import { Link } from 'react-router-dom';
@@ -107,7 +108,46 @@ class buyLandingPage extends React.Component {
 
 <section className="container container--big " >
 <div className="blogHeader">A fresh look at your home</div>
+
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="../../assets/landingPage/rectangle104.png"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="../../assets/landingPage/rectangle105.png"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="../../assets/landingPage/rectangle106.png"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
     <div className="content2 negativeTopSpace">
+{/*
         <div className="flexWrapLeft">
         <Button className="ceo">From CEO</Button>
         <Button className="holiday">Holidays</Button>
@@ -151,9 +191,10 @@ class buyLandingPage extends React.Component {
                     <div><div className="authorDate3">Author<br />April 19, 2018</div></div>
                 </div>
             </div> 
-            </div>
+</div>
+        </div>*/}
         </div>
-        </div>
+
         <div className="parallax__container">
             <div className="opacityBackgroundOne"></div>
             <div className="parallax bg4"></div>
